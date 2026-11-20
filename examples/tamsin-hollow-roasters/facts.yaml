@@ -1,0 +1,68 @@
+# Fictional fact sheet. All names, people, organizations, and figures are invented.
+facts:
+  - id: F-001
+    claim_type: product_fact
+    claim: Every bag is roasted within 48 hours of shipping.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep "48 hours" and that the window ends at shipping.
+    approved_phrasings:
+      - Roasted within 48 hours of shipping.
+    evidence_note: Roast and dispatch timestamps from the 2026 production log, audited in September.
+    expires: 2027-09-30
+  - id: F-002
+    claim_type: product_fact
+    claim: Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep the variety, process, farm, and region.
+    evidence_note: Purchase contract and lot record for the 2026 harvest.
+    expires: 2027-08-31
+  - id: F-003
+    claim_type: product_fact
+    claim: Hollow Reserve tastes of red apple, panela, and cocoa.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep all three tasting notes.
+    evidence_note: Scoring sheet from the head roaster's cupping panel, March 2026.
+  - id: F-004
+    claim_type: statistic
+    claim: We have bought from Finca Monte Tamsal for 7 consecutive harvests.
+    evidence_note: Signed purchase contracts for each harvest from 2020 to 2026.
+    expires: 2027-08-31
+  - id: F-005
+    claim_type: pricing
+    claim: Hollow Reserve costs $19 for a 12 oz bag.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep the price and the bag size.
+    approved_phrasings:
+      - $19 per 12 oz bag
+    evidence_note: Current price list approved by the owner.
+    expires: 2027-03-31
+  - id: F-006
+    claim_type: pricing
+    claim: Free shipping on orders over $40 in the contiguous US.
+    evidence_note: Current shipping policy.
+    expires: 2027-03-31
+  - id: F-007
+    claim_type: environmental
+    claim: Our roastery runs on 100% renewable electricity through the Quenby Meadow Community Solar program.
+    evidence_note: Program enrollment certificate and 2026 utility statements.
+    expires: 2027-06-30
+  - id: F-008
+    claim_type: superlative
+    claim: Best Washed Coffee, 2026 Quenby Valley Cup Awards
+    evidence_note: Award letter from the fictional Quenby Valley Cup Awards committee, May 2026.
+    expires: 2027-05-31
+  - id: F-009
+    claim_type: testimonial
+    claim: '"I set my alarm ten minutes early for this one." - Dana R., subscriber since 2024'
+    evidence_note: Signed customer release on file, June 2026. The customer received no payment.
+    expires: 2027-06-30
+  - id: F-010
+    claim_type: pricing
+    claim: Holiday sampler is $32 through December 31, 2025.
+    evidence_note: The 2025 holiday promotion plan.
+    expires: 2025-12-31
+  - id: F-011
+    claim_type: product_fact
+    claim: Hollow Reserve is roasted from beans harvested in 2026.
+    evidence_note: Purchase contract and lot record for the 2026 harvest.
+    expires: 2027-12-31

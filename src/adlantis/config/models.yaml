@@ -1,0 +1,51 @@
+# Default routing profile: role -> model. Agents request a model by role.
+# The budget profile (models.budget.yaml) is what the CLI and app use unless told otherwise.
+#
+# Each entry: provider (openai | anthropic), model, and optional params.
+# Roles inherit any params they don't set from `default`.
+#
+# Rules enforced at startup by config/role_rules.py and by tests/config/test_profiles.py:
+#   - claim_checker runs on a different provider than the copywriter
+#   - judge is a different model from the copywriter and the claim_checker
+
+default:
+  provider: openai
+  model: gpt-6.2-sol
+  max_tokens: 16000
+
+roles:
+  # Web search and evidence gathering: high volume, low cost.
+  researcher:
+    provider: openai
+    model: gpt-6-luna
+    reasoning_effort: low
+
+  # Positioning, key messages, and channel mix: strong reasoning.
+  strategist:
+    provider: anthropic
+    model: claude-opus-5-5
+    reasoning_effort: medium
+
+  # Campaign copy: strong writing.
+  copywriter:
+    provider: openai
+    model: gpt-6.2-sol
+    reasoning_effort: medium
+
+  # Verifies every factual claim, on a different provider than the copywriter.
+  claim_checker:
+    provider: anthropic
+    model: claude-opus-5-5
+    reasoning_effort: high
+
+  # Image prompts: low cost.
+  designer:
+    provider: openai
+    model: gpt-6-luna
+    reasoning_effort: low
+
+  # Eval judge: never a model it grades.
+  judge:
+    provider: openai
+    model: gpt-6.2-astra
+    reasoning_effort: medium

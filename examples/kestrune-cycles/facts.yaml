@@ -1,0 +1,62 @@
+# Fictional fact sheet. All names, people, organizations, and figures are invented.
+facts:
+  - id: F-001
+    claim_type: product_fact
+    claim: The Arc 7 has a rated range of up to 62 miles on one charge in Eco mode.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep "up to", "62 miles", "one charge", and "Eco mode".
+    approved_phrasings:
+      - Up to 62 miles per charge in Eco mode.
+    evidence_note: Range test report KC-RT-114, 165 lb rider on flat pavement, February 2026.
+    expires: 2027-02-28
+  - id: F-002
+    claim_type: product_fact
+    claim: The Arc 7 uses a 500 W rear hub motor and a removable 720 Wh battery.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep both figures and that the battery is removable.
+    evidence_note: Engineering specification sheet, revision D.
+  - id: F-003
+    claim_type: product_fact
+    claim: The Arc 7 is a Class 2 e-bike with a top assisted speed of 20 mph.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep the class and the speed.
+    evidence_note: Compliance test summary, January 2026.
+  - id: F-004
+    claim_type: statistic
+    claim: 94% of Arc 7 owners in our 2026 survey still ride at least weekly after six months.
+    evidence_note: Owner survey of 412 respondents, April 2026, run by the fictional Orrowell Research.
+    expires: 2027-04-30
+  - id: F-005
+    claim_type: pricing
+    claim: The Arc 7 costs $2,199.
+    wording: paraphrase
+    paraphrase_scope: May be reworded. Must keep the price.
+    approved_phrasings:
+      - Arc 7, $2,199
+    evidence_note: Current US price list approved by finance.
+    expires: 2027-03-31
+  - id: F-006
+    claim_type: pricing
+    claim: 30-day money-back guarantee on every Arc 7, less return freight.
+    evidence_note: Published returns policy, version 4.
+    expires: 2027-06-30
+  - id: F-007
+    claim_type: environmental
+    claim: The Arc 7 frame is made with 40% recycled aluminum.
+    evidence_note: Supplier mill certificates audited by the fictional Dunmarrow Materials Lab, 2026.
+    expires: 2027-01-31
+  - id: F-008
+    claim_type: superlative
+    claim: Best Commuter E-Bike, 2026 Dunmarrow Cycling Review Awards
+    evidence_note: Award letter from the fictional Dunmarrow Cycling Review, June 2026.
+    expires: 2027-06-30
+  - id: F-009
+    claim_type: testimonial
+    claim: '"I sold my second car in March." - Marcus T., Arc 7 owner'
+    evidence_note: Signed customer release on file, May 2026. The customer received no payment.
+    expires: 2027-05-31
+  - id: F-010
+    claim_type: pricing
+    claim: Save $200 on the Arc 7 through March 31, 2026.
+    evidence_note: The 2026 spring promotion plan.
+    expires: 2026-03-31

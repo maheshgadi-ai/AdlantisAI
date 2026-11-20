@@ -1,0 +1,10 @@
+# Fictional product brief.
+name: Hollow Reserve
+aliases: [Hollow Reserve Coffee]
+description: A washed Caturra from a single Colombian farm, roasted light for filter brewing.
+price_point: $19 per 12 oz bag
+target_market: Home filter brewers in the US who already buy specialty whole-bean coffee.
+campaign_goals:
+  - Introduce the 2026 harvest to existing subscribers.
+  - Win first orders from home brewers new to the roastery.
+channels: [search_ad, instagram, email, landing_page]

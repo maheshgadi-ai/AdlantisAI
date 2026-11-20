@@ -1,0 +1,27 @@
+# Optional image generation, off unless ENABLE_IMAGES=true. Checked 2026-11-18 against:
+#   https://developers.openai.com/api/docs/deprecations
+#   https://developers.openai.com/api/docs/models/gpt-image-2.6-flare
+#   https://developers.openai.com/api/docs/pricing
+#
+# OpenAI publishes token prices for this model but no per-image cost, so each image holds
+# reserve_usd_per_image against the budget cap until its real usage is known.
+
+image:
+  model: gpt-image-2.6-flare
+  quality: medium
+  default_size: 1024x1024
+  channel_sizes:
+    instagram: 1024x1024
+    meta_ad: 1024x1024
+    linkedin: 1536x1024
+    x: 1536x1024
+    email: 1536x1024
+    landing_page: 1536x1024
+  reserve_usd_per_image: 0.25
+
+# USD per 1M tokens, standard tier.
+pricing:
+  gpt-image-2.6-flare:
+    text_input_per_mtok: 5.0
+    image_input_per_mtok: 8.0
+    image_output_per_mtok: 30.0

@@ -1,0 +1,9 @@
+# Fictional product brief.
+name: Arc 7
+description: A Class 2 commuter e-bike with a removable battery and serviceable standard parts.
+price_point: $2,199
+target_market: US city commuters with a round trip under 25 miles.
+campaign_goals:
+  - Book test rides in launch cities.
+  - Make the Arc 7 the first e-bike commuters consider for replacing short car trips.
+channels: [search_ad, meta_ad, linkedin, x, email, landing_page]

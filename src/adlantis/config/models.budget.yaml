@@ -1,0 +1,46 @@
+# Budget routing profile: the CLI and app default.
+#
+# Same roles and rules as models.yaml. Model facts, prices, and deprecation checks
+# come from the shared model_catalog.yaml and deprecated_models.yaml.
+
+default:
+  provider: openai
+  model: gpt-6.1-terra
+  max_tokens: 16000
+
+roles:
+  # Web search and evidence gathering: cheapest catalog model.
+  researcher:
+    provider: openai
+    model: gpt-6-luna
+    reasoning_effort: low
+
+  # Positioning, key messages, and channel mix: strong reasoning at a lower price.
+  strategist:
+    provider: anthropic
+    model: claude-sonnet-5-5
+    reasoning_effort: medium
+
+  # Campaign copy: cheapest strong-writing model.
+  copywriter:
+    provider: openai
+    model: gpt-6.1-terra
+    reasoning_effort: medium
+
+  # Verifies every factual claim, on a different provider than the copywriter.
+  claim_checker:
+    provider: anthropic
+    model: claude-sonnet-5-5
+    reasoning_effort: high
+
+  # Image prompts: cheapest catalog model.
+  designer:
+    provider: openai
+    model: gpt-6-luna
+    reasoning_effort: low
+
+  # Eval judge: never a model it grades, and stronger than the copywriter.
+  judge:
+    provider: openai
+    model: gpt-6.2-sol
+    reasoning_effort: medium

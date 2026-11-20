@@ -1,0 +1,33 @@
+# `docker compose up` opens the demo at http://127.0.0.1:8501. It needs no API keys.
+# `docker compose --profile app up app` opens the full app at http://127.0.0.1:8502.
+# Ports bind to localhost only.
+
+services:
+  demo:
+    build: .
+    image: adlantis:local
+    ports:
+      - "127.0.0.1:8501:8501"
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  app:
+    profiles: ["app"]
+    image: adlantis:local
+    build: .
+    command: ["adlantis", "app", "--address", "0.0.0.0", "--port", "8501", "--headless"]
+    ports:
+      - "127.0.0.1:8502:8501"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      TAVILY_API_KEY: ${TAVILY_API_KEY:-}
+      LANGFUSE_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:-}
+      LANGFUSE_SECRET_KEY: ${LANGFUSE_SECRET_KEY:-}
+      LANGFUSE_BASE_URL: ${LANGFUSE_BASE_URL:-}
+    volumes:
+      - ./outputs:/app/outputs
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

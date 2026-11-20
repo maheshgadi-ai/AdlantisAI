@@ -1,0 +1,272 @@
+# Hand-labeled copy for measuring claim-extraction recall. All brands and figures are fictional.
+#
+# A claim is any statement that could be shown true or false. Each quote is the shortest exact
+# passage that states the claim. Snippets with no claims test that style is not over-extracted.
+snippets:
+  - id: CE-001
+    brand: tamsin-hollow-roasters
+    channel: email
+    text: Every bag is roasted within 48 hours of shipping, so it reaches you fresh.
+    claims:
+      - {quote: roasted within 48 hours of shipping, claim_type: product_fact}
+      - {quote: it reaches you fresh, claim_type: product_fact}
+  - id: CE-002
+    brand: tamsin-hollow-roasters
+    channel: instagram
+    text: Hollow Reserve is a washed Caturra from Huila, Colombia.
+    claims:
+      - {quote: "Hollow Reserve is a washed Caturra from Huila, Colombia", claim_type: product_fact}
+  - id: CE-003
+    brand: tamsin-hollow-roasters
+    channel: search_ad
+    text: Red apple, panela, and cocoa in every cup.
+    claims:
+      - {quote: "Red apple, panela, and cocoa in every cup", claim_type: product_fact}
+  - id: CE-004
+    brand: tamsin-hollow-roasters
+    channel: landing_page
+    text: We have bought from Finca Monte Tamsal for 7 consecutive harvests.
+    claims:
+      - {quote: bought from Finca Monte Tamsal for 7 consecutive harvests, claim_type: statistic}
+  - id: CE-005
+    brand: tamsin-hollow-roasters
+    channel: search_ad
+    text: $19 for a 12 oz bag. Free shipping on orders over $40.
+    claims:
+      - {quote: $19 for a 12 oz bag, claim_type: pricing}
+      - {quote: Free shipping on orders over $40, claim_type: pricing}
+  - id: CE-006
+    brand: tamsin-hollow-roasters
+    channel: email
+    text: Our roastery runs on 100% renewable electricity.
+    claims:
+      - {quote: Our roastery runs on 100% renewable electricity, claim_type: environmental}
+  - id: CE-007
+    brand: tamsin-hollow-roasters
+    channel: landing_page
+    text: Winner of Best Washed Coffee at the 2026 Quenby Valley Cup Awards.
+    claims:
+      - {quote: Winner of Best Washed Coffee at the 2026 Quenby Valley Cup Awards, claim_type: superlative}
+  - id: CE-008
+    brand: tamsin-hollow-roasters
+    channel: instagram
+    text: '"I set my alarm ten minutes early for this one." - Dana R., subscriber'
+    claims:
+      - {quote: '"I set my alarm ten minutes early for this one." - Dana R., subscriber', claim_type: testimonial}
+  - id: CE-009
+    brand: tamsin-hollow-roasters
+    channel: x
+    text: The smoothest cup you will ever brew.
+    claims:
+      - {quote: The smoothest cup you will ever brew, claim_type: superlative}
+  - id: CE-010
+    brand: tamsin-hollow-roasters
+    channel: meta_ad
+    text: Smoother than Harrowfen Coffee's house blend.
+    claims:
+      - {quote: Smoother than Harrowfen Coffee's house blend, claim_type: comparison}
+  - id: CE-011
+    brand: tamsin-hollow-roasters
+    channel: instagram
+    text: Two cups a day keeps your stress levels down.
+    claims:
+      - {quote: keeps your stress levels down, claim_type: health}
+  - id: CE-012
+    brand: tamsin-hollow-roasters
+    channel: email
+    text: Our beans are packed with antioxidants that support a healthy heart.
+    claims:
+      - {quote: packed with antioxidants, claim_type: health}
+      - {quote: support a healthy heart, claim_type: health}
+  - id: CE-013
+    brand: tamsin-hollow-roasters
+    channel: linkedin
+    text: 9 in 10 subscribers renew after their first three months.
+    claims:
+      - {quote: 9 in 10 subscribers renew after their first three months, claim_type: statistic}
+  - id: CE-014
+    brand: tamsin-hollow-roasters
+    channel: email
+    text: Family owned since 2014.
+    claims:
+      - {quote: Family owned since 2014, claim_type: other}
+  - id: CE-015
+    brand: tamsin-hollow-roasters
+    channel: landing_page
+    text: Compostable bags. Carbon-neutral delivery.
+    claims:
+      - {quote: Compostable bags, claim_type: environmental}
+      - {quote: Carbon-neutral delivery, claim_type: environmental}
+  - id: CE-016
+    brand: tamsin-hollow-roasters
+    channel: instagram
+    text: Slow mornings deserve a slower pour.
+    claims: []
+  - id: CE-017
+    brand: tamsin-hollow-roasters
+    channel: x
+    text: Grind, bloom, pour, and take your time.
+    claims: []
+  - id: CE-018
+    brand: tamsin-hollow-roasters
+    channel: email
+    text: Tell us how your first cup turned out.
+    claims: []
+  - id: CE-019
+    brand: tamsin-hollow-roasters
+    channel: landing_page
+    text: Start your morning with something worth waking up for.
+    claims: []
+  - id: CE-020
+    brand: tamsin-hollow-roasters
+    channel: meta_ad
+    text: Roasted weekly in small batches and loved by baristas across the state.
+    claims:
+      - {quote: Roasted weekly in small batches, claim_type: product_fact}
+      - {quote: loved by baristas across the state, claim_type: testimonial}
+  - id: CE-021
+    brand: tamsin-hollow-roasters
+    channel: search_ad
+    text: Try a bag with our 30-day money-back guarantee.
+    claims:
+      - {quote: 30-day money-back guarantee, claim_type: pricing}
+  - id: CE-022
+    brand: tamsin-hollow-roasters
+    channel: linkedin
+    text: Single-origin coffee sales grew 18% last year.
+    claims:
+      - {quote: Single-origin coffee sales grew 18% last year, claim_type: statistic}
+  - id: CE-023
+    brand: kestrune-cycles
+    channel: search_ad
+    text: Up to 62 miles per charge in Eco mode.
+    claims:
+      - {quote: Up to 62 miles per charge in Eco mode, claim_type: product_fact}
+  - id: CE-024
+    brand: kestrune-cycles
+    channel: landing_page
+    text: A 500 W rear hub motor and a removable 720 Wh battery.
+    claims:
+      - {quote: A 500 W rear hub motor, claim_type: product_fact}
+      - {quote: a removable 720 Wh battery, claim_type: product_fact}
+  - id: CE-025
+    brand: kestrune-cycles
+    channel: email
+    text: A Class 2 e-bike with a top assisted speed of 20 mph.
+    claims:
+      - {quote: A Class 2 e-bike, claim_type: product_fact}
+      - {quote: a top assisted speed of 20 mph, claim_type: product_fact}
+  - id: CE-026
+    brand: kestrune-cycles
+    channel: linkedin
+    text: 94% of owners still ride at least weekly after six months.
+    claims:
+      - {quote: 94% of owners still ride at least weekly after six months, claim_type: statistic}
+  - id: CE-027
+    brand: kestrune-cycles
+    channel: meta_ad
+    text: The Arc 7 costs $2,199, with 0% APR financing for 24 months.
+    claims:
+      - {quote: "The Arc 7 costs $2,199", claim_type: pricing}
+      - {quote: 0% APR financing for 24 months, claim_type: pricing}
+  - id: CE-028
+    brand: kestrune-cycles
+    channel: x
+    text: Frame made with 40% recycled aluminum.
+    claims:
+      - {quote: Frame made with 40% recycled aluminum, claim_type: environmental}
+  - id: CE-029
+    brand: kestrune-cycles
+    channel: landing_page
+    text: Best Commuter E-Bike, 2026 Dunmarrow Cycling Review Awards
+    claims:
+      - {quote: "Best Commuter E-Bike, 2026 Dunmarrow Cycling Review Awards", claim_type: superlative}
+  - id: CE-030
+    brand: kestrune-cycles
+    channel: instagram
+    text: '"I sold my second car in March." - Marcus T., Arc 7 owner'
+    claims:
+      - {quote: '"I sold my second car in March." - Marcus T., Arc 7 owner', claim_type: testimonial}
+  - id: CE-031
+    brand: kestrune-cycles
+    channel: search_ad
+    text: The fastest commuter e-bike on the market.
+    claims:
+      - {quote: The fastest commuter e-bike on the market, claim_type: superlative}
+  - id: CE-032
+    brand: kestrune-cycles
+    channel: meta_ad
+    text: Goes farther on a charge than a Voltmere City.
+    claims:
+      - {quote: Goes farther on a charge than a Voltmere City, claim_type: comparison}
+  - id: CE-033
+    brand: kestrune-cycles
+    channel: instagram
+    text: Ride to work and burn 400 calories a day.
+    claims:
+      - {quote: burn 400 calories a day, claim_type: health}
+  - id: CE-034
+    brand: kestrune-cycles
+    channel: x
+    text: Zero emissions on every commute.
+    claims:
+      - {quote: Zero emissions on every commute, claim_type: environmental}
+  - id: CE-035
+    brand: kestrune-cycles
+    channel: linkedin
+    text: Recommended by mechanics in twelve cities.
+    claims:
+      - {quote: Recommended by mechanics in twelve cities, claim_type: testimonial}
+  - id: CE-036
+    brand: kestrune-cycles
+    channel: meta_ad
+    text: Cuts your commute time in half.
+    claims:
+      - {quote: Cuts your commute time in half, claim_type: comparison}
+  - id: CE-037
+    brand: kestrune-cycles
+    channel: x
+    text: Your commute, on your terms.
+    claims: []
+  - id: CE-038
+    brand: kestrune-cycles
+    channel: email
+    text: Book a test ride this Saturday.
+    claims: []
+  - id: CE-039
+    brand: kestrune-cycles
+    channel: instagram
+    text: The city looks different from the saddle.
+    claims: []
+  - id: CE-040
+    brand: kestrune-cycles
+    channel: landing_page
+    text: Standard parts mean any bike shop can work on it.
+    claims:
+      - {quote: any bike shop can work on it, claim_type: product_fact}
+  - id: CE-041
+    brand: kestrune-cycles
+    channel: email
+    text: Free assembly with every order, plus a two-year warranty.
+    claims:
+      - {quote: Free assembly with every order, claim_type: pricing}
+      - {quote: a two-year warranty, claim_type: pricing}
+  - id: CE-042
+    brand: kestrune-cycles
+    channel: linkedin
+    text: City commuters are replacing short car trips with e-bikes.
+    claims:
+      - {quote: City commuters are replacing short car trips with e-bikes, claim_type: other}
+  - id: CE-043
+    brand: kestrune-cycles
+    channel: meta_ad
+    text: Trusted by 10,000 riders and lighter than any bike in its class.
+    claims:
+      - {quote: "Trusted by 10,000 riders", claim_type: testimonial}
+      - {quote: lighter than any bike in its class, claim_type: comparison}
+  - id: CE-044
+    brand: tamsin-hollow-roasters
+    channel: landing_page
+    text: Sourced directly from farmers we know by name.
+    claims:
+      - {quote: Sourced directly from farmers we know by name, claim_type: product_fact}

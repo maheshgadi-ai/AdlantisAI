@@ -1,0 +1,21 @@
+# Fictional brand. All names, people, organizations, and figures are invented.
+name: Kestrune Cycles
+voice:
+  tone: [direct, practical, quietly confident]
+  do:
+    - Lead with the commute a rider actually has.
+    - Give the specification, then say why it matters.
+  dont:
+    - Overstate range, speed, or what riding will do for someone.
+    - Talk down to first-time e-bike riders.
+audience: City commuters aged 25 to 50 replacing short car trips with an e-bike.
+values: [repairability, rider safety, plain specifications]
+colors:
+  - {name: Signal Teal, hex: "#117A7A"}
+  - {name: Graphite, hex: "#2B2F33"}
+  - {name: Chalk, hex: "#F4F5F2"}
+banned_words: [revolutionary, disrupt, effortless, game-changer, unstoppable]
+banned_claim_types: [health, comparison]
+competitors:
+  - {name: Voltmere Bikes, aliases: [Voltmere]}
+  - {name: Corvane Cycles, aliases: [Corvane]}

@@ -1,0 +1,24 @@
+{"at":"2026-11-18T23:29:25.095529Z","stage":"run","status":"started","detail":"team","spent_usd":0.0}
+{"at":"2026-11-18T23:29:25.106117Z","stage":"research","status":"started","detail":"","spent_usd":0.0}
+{"at":"2026-11-18T23:29:58.052406Z","stage":"research","status":"finished","detail":"8 findings","spent_usd":0.004774}
+{"at":"2026-11-18T23:29:58.053793Z","stage":"tool:fetch_url","status":"failed","detail":"HTTP 403: https://perfectdailygrind.com/2025/02/what-to-expect-from-specialty-coffee-in-2025","spent_usd":0.004774}
+{"at":"2026-11-18T23:29:58.053878Z","stage":"strategy","status":"started","detail":"","spent_usd":0.036774}
+{"at":"2026-11-18T23:30:08.380636Z","stage":"strategy","status":"finished","detail":"8 messages","spent_usd":0.062639}
+{"at":"2026-11-18T23:30:08.380893Z","stage":"verify:strategy","status":"started","detail":"","spent_usd":0.062639}
+{"at":"2026-11-18T23:30:59.604635Z","stage":"verify:strategy","status":"finished","detail":"14 statements passed, 0 removed","spent_usd":0.342857}
+{"at":"2026-11-18T23:30:59.605678Z","stage":"copy:search_ad","status":"started","detail":"","spent_usd":0.342857}
+{"at":"2026-11-18T23:30:59.606094Z","stage":"copy:instagram","status":"started","detail":"","spent_usd":0.342857}
+{"at":"2026-11-18T23:30:59.611514Z","stage":"copy:email","status":"started","detail":"","spent_usd":0.342857}
+{"at":"2026-11-18T23:30:59.615821Z","stage":"copy:landing_page","status":"started","detail":"","spent_usd":0.342857}
+{"at":"2026-11-18T23:31:06.769622Z","stage":"copy:instagram","status":"finished","detail":"2 assets, 0 dropped","spent_usd":0.350841}
+{"at":"2026-11-18T23:31:07.569542Z","stage":"copy:email","status":"finished","detail":"1 assets, 0 dropped","spent_usd":0.359101}
+{"at":"2026-11-18T23:31:09.227057Z","stage":"copy:search_ad","status":"finished","detail":"3 assets, 0 dropped","spent_usd":0.368045}
+{"at":"2026-11-18T23:31:10.763721Z","stage":"copy:landing_page","status":"finished","detail":"1 assets, 0 dropped","spent_usd":0.377331}
+{"at":"2026-11-18T23:31:10.764489Z","stage":"review","status":"started","detail":"7 assets","spent_usd":0.377331}
+{"at":"2026-11-18T23:31:28.586695Z","stage":"review","status":"finished","detail":"7 shipped, 0 gaps","spent_usd":0.454239}
+{"at":"2026-11-18T23:31:28.587069Z","stage":"design","status":"started","detail":"","spent_usd":0.454239}
+{"at":"2026-11-18T23:31:34.412225Z","stage":"design","status":"finished","detail":"4 prompts","spent_usd":0.454669}
+{"at":"2026-11-18T23:31:34.412373Z","stage":"verify:images","status":"started","detail":"4 prompts","spent_usd":0.454669}
+{"at":"2026-11-18T23:31:43.817049Z","stage":"verify:images","status":"finished","detail":"3 passed, 1 removed","spent_usd":0.501604}
+{"at":"2026-11-18T23:31:43.821828Z","stage":"images","status":"skipped","detail":"Image generation is off.","spent_usd":0.501604}
+{"at":"2026-11-18T23:31:44.416811Z","stage":"run","status":"finished","detail":"7 assets, 0 gaps","spent_usd":0.501604}

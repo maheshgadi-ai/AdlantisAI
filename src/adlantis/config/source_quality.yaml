@@ -1,0 +1,150 @@
+# Source-quality rules: where a source is published → a weight from 0 to 1.
+# Recorded on each evidence record and reported by the evals. Override with
+# SOURCE_QUALITY_PATH.
+#
+# Matching order for a URL's host (leading "www." ignored):
+#   deny (→ 0, "blocked") → domains (longest match) → suffixes → default.
+# A host matching no rule is "unrated" with the neutral default score: unknown is
+# not the same as weak. Add domains here to rate them.
+# A domain matches the host itself and any subdomain.
+
+default: {score: 0.5, label: unrated web}
+
+tiers:
+  high: 0.75    # score >= 0.75 → high
+  medium: 0.5   # score >= 0.5  → medium; below → low
+
+# Content farms and link-spam hosts seen in research runs.
+deny:
+  - mybluehost.me
+  - blogspot.com
+  - wixsite.com
+  - weebly.com
+
+domains:
+  # --- Peer-reviewed publishers, preprints, scholarly indexes ---------------
+  pmc.ncbi.nlm.nih.gov: {score: 0.95, label: peer-reviewed (PMC)}
+  pubmed.ncbi.nlm.nih.gov: {score: 0.9, label: peer-reviewed index}
+  nature.com: {score: 0.95, label: peer-reviewed}
+  science.org: {score: 0.95, label: peer-reviewed}
+  cell.com: {score: 0.95, label: peer-reviewed}
+  thelancet.com: {score: 0.95, label: peer-reviewed}
+  nejm.org: {score: 0.95, label: peer-reviewed}
+  bmj.com: {score: 0.9, label: peer-reviewed}
+  sciencedirect.com: {score: 0.9, label: peer-reviewed}
+  link.springer.com: {score: 0.9, label: peer-reviewed}
+  springer.com: {score: 0.9, label: peer-reviewed}
+  onlinelibrary.wiley.com: {score: 0.9, label: peer-reviewed}
+  tandfonline.com: {score: 0.9, label: peer-reviewed}
+  iopscience.iop.org: {score: 0.9, label: peer-reviewed}
+  pubs.acs.org: {score: 0.9, label: peer-reviewed}
+  pubs.rsc.org: {score: 0.9, label: peer-reviewed}
+  ieeexplore.ieee.org: {score: 0.9, label: peer-reviewed}
+  dl.acm.org: {score: 0.9, label: peer-reviewed}
+  journals.plos.org: {score: 0.85, label: peer-reviewed}
+  academic.oup.com: {score: 0.9, label: peer-reviewed}
+  cambridge.org: {score: 0.9, label: peer-reviewed}
+  pnas.org: {score: 0.95, label: peer-reviewed}
+  mdpi.com: {score: 0.75, label: peer-reviewed (open access)}
+  frontiersin.org: {score: 0.75, label: peer-reviewed (open access)}
+  arxiv.org: {score: 0.8, label: preprint}
+  biorxiv.org: {score: 0.75, label: preprint}
+  medrxiv.org: {score: 0.75, label: preprint}
+  ssrn.com: {score: 0.7, label: preprint}
+  doi.org: {score: 0.85, label: scholarly DOI}
+  aclanthology.org: {score: 0.9, label: peer-reviewed}
+  openreview.net: {score: 0.8, label: peer review platform}
+
+  # --- Government, intergovernmental, standards ------------------------------
+  iea.org: {score: 0.9, label: intergovernmental}
+  irena.org: {score: 0.9, label: intergovernmental}
+  ipcc.ch: {score: 0.95, label: intergovernmental}
+  who.int: {score: 0.95, label: intergovernmental}
+  oecd.org: {score: 0.9, label: intergovernmental}
+  worldbank.org: {score: 0.9, label: intergovernmental}
+  europa.eu: {score: 0.9, label: government (EU)}
+  un.org: {score: 0.9, label: intergovernmental}
+  iaea.org: {score: 0.9, label: intergovernmental}
+  iso.org: {score: 0.85, label: standards body}
+  nist.gov: {score: 0.95, label: government}
+
+  # --- Research institutes and labs ------------------------------------------
+  fz-juelich.de: {score: 0.85, label: research institute}
+  fraunhofer.de: {score: 0.85, label: research institute}
+  nrel.gov: {score: 0.9, label: government lab}
+  faraday.ac.uk: {score: 0.85, label: research institute}
+
+  nih.gov: {score: 0.9, label: government}
+  mayoclinic.org: {score: 0.85, label: medical institution}
+  clevelandclinic.org: {score: 0.8, label: medical institution}
+  rand.org: {score: 0.85, label: research institute}
+  pewresearch.org: {score: 0.85, label: research institute}
+  ourworldindata.org: {score: 0.85, label: research data}
+  fao.org: {score: 0.9, label: intergovernmental}
+  iucn.org: {score: 0.85, label: intergovernmental}
+  carbonbrief.org: {score: 0.75, label: specialist journalism}
+  theconversation.com: {score: 0.7, label: academic commentary}
+  autonomy.work: {score: 0.6, label: think tank}
+  4dayweek.com: {score: 0.45, label: advocacy organization}
+
+  # --- Reference works ---------------------------------------------------------
+  wikipedia.org: {score: 0.6, label: encyclopedia}
+  britannica.com: {score: 0.7, label: encyclopedia}
+
+  # --- News and science journalism --------------------------------------------
+  reuters.com: {score: 0.7, label: news}
+  apnews.com: {score: 0.7, label: news}
+  bbc.co.uk: {score: 0.7, label: news}
+  bbc.com: {score: 0.7, label: news}
+  nytimes.com: {score: 0.7, label: news}
+  ft.com: {score: 0.7, label: news}
+  economist.com: {score: 0.7, label: news}
+  theguardian.com: {score: 0.65, label: news}
+  newscientist.com: {score: 0.65, label: science journalism}
+  scientificamerican.com: {score: 0.65, label: science journalism}
+  sciencedaily.com: {score: 0.55, label: press-release aggregator}
+  eurekalert.org: {score: 0.55, label: press-release aggregator}
+  techxplore.com: {score: 0.5, label: press-release aggregator}
+  phys.org: {score: 0.55, label: press-release aggregator}
+  bloomberg.com: {score: 0.7, label: news}
+  wsj.com: {score: 0.7, label: news}
+  npr.org: {score: 0.7, label: news}
+  cnbc.com: {score: 0.6, label: news}
+  statnews.com: {score: 0.7, label: health journalism}
+  axios.com: {score: 0.6, label: news}
+  techcrunch.com: {score: 0.55, label: tech news}
+  spectrum.ieee.org: {score: 0.75, label: specialist journalism}
+  hbr.org: {score: 0.6, label: business magazine}
+  forbes.com: {score: 0.45, label: business media (mixed contributors)}
+  healthline.com: {score: 0.45, label: health content site}
+  webmd.com: {score: 0.5, label: health content site}
+
+  # --- Low-weight: video, social, forums, Q&A, market-research sales pages ----
+  youtube.com: {score: 0.2, label: video}
+  reddit.com: {score: 0.2, label: forum}
+  quora.com: {score: 0.15, label: Q&A}
+  medium.com: {score: 0.3, label: blog platform}
+  substack.com: {score: 0.3, label: newsletter}
+  linkedin.com: {score: 0.3, label: social}
+  x.com: {score: 0.15, label: social}
+  twitter.com: {score: 0.15, label: social}
+  facebook.com: {score: 0.1, label: social}
+  eureka.patsnap.com: {score: 0.3, label: industry analysis}
+  idtechex.com: {score: 0.35, label: market research}
+  marketsandmarkets.com: {score: 0.2, label: market research}
+  persistencemarketresearch.com: {score: 0.2, label: market research}
+  bisresearch.com: {score: 0.2, label: market research}
+  grandviewresearch.com: {score: 0.2, label: market research}
+  precedenceresearch.com: {score: 0.2, label: market research}
+
+suffixes:
+  .edu: {score: 0.85, label: university}
+  .ac.uk: {score: 0.85, label: university}
+  .edu.au: {score: 0.85, label: university}
+  .ac.jp: {score: 0.85, label: university}
+  .gov: {score: 0.9, label: government}
+  .gov.uk: {score: 0.9, label: government}
+  .gc.ca: {score: 0.9, label: government}
+  .gov.au: {score: 0.9, label: government}
+  .int: {score: 0.85, label: intergovernmental}
+  .mil: {score: 0.8, label: government}

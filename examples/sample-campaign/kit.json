@@ -1,0 +1,3234 @@
+{
+  "run_id": "20261118-232924-tamsin-hollow-roasters",
+  "mode": "team",
+  "verified": true,
+  "status": "approved",
+  "created_at": "2026-11-18T23:29:24.864526Z",
+  "profile": "budget",
+  "brand_name": "Tamsin Hollow Roasters",
+  "brand_colors": [
+    {
+      "name": "Hollow Moss",
+      "hex": "#3F5B45"
+    },
+    {
+      "name": "Roasted Clay",
+      "hex": "#A65A3A"
+    },
+    {
+      "name": "Oat Milk",
+      "hex": "#F3EBDD"
+    }
+  ],
+  "product_name": "Hollow Reserve",
+  "summary": "",
+  "strategy": {
+    "positioning": "For home filter brewers who already buy specialty whole-bean coffee and care where it comes from, Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia, that tastes of red apple, panela, and cocoa. We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+    "concept": "Know your cup: a plainspoken, barista-across-the-counter introduction to one farm, one process, and three tasting notes. Each asset names Finca Monte Tamsal, explains what washed means in the brand's own words, and tells you what to taste, so a new brewer and a longtime subscriber can both see exactly where the 2026 harvest comes from.",
+    "key_messages": [
+      {
+        "message": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia, roasted from beans harvested in 2026.",
+        "references": [
+          "F-002",
+          "F-011"
+        ]
+      },
+      {
+        "message": "It tastes of red apple, panela, and cocoa.",
+        "references": [
+          "F-003"
+        ]
+      },
+      {
+        "message": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+        "references": [
+          "F-002"
+        ]
+      },
+      {
+        "message": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+        "references": [
+          "F-004"
+        ]
+      },
+      {
+        "message": "Roasted within 48 hours of shipping.",
+        "references": [
+          "F-001"
+        ]
+      },
+      {
+        "message": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+        "references": [
+          "F-008"
+        ]
+      },
+      {
+        "message": "$19 per 12 oz bag. Free shipping on orders over $40 in the contiguous US.",
+        "references": [
+          "F-005",
+          "F-006"
+        ]
+      },
+      {
+        "message": "Market context: in the 2026 National Coffee Data Trends report, 47% of U.S. adults had specialty coffee in the past day, and 35% of past-day specialty coffee drinkers said flavor is part of what makes a cup of coffee 'specialty coffee'. That makes a clear, named tasting profile a good lead for this audience.",
+        "references": [
+          "E-22",
+          "E-23"
+        ]
+      }
+    ],
+    "channel_mix": [
+      {
+        "channel": "search_ad",
+        "role": "Catch home brewers already looking for specialty whole-bean coffee and bring them to the landing page with the farm, the process, and the tasting notes.",
+        "rationale": "We are targeting searchers who may be ready to buy, so the washed Caturra from Finca Monte Tamsal, the red apple, panela, and cocoa notes (F-002, F-003), and the $19 per 12 oz bag price (F-005) give new buyers concrete reasons to click. Flavor matters to specialty drinkers (E-22)."
+      },
+      {
+        "channel": "instagram",
+        "role": "Show the farm name, the three tasting notes, and the award in plain, curious language, and explain washed coffee with the glossary wording.",
+        "rationale": "A visual feed suits a flavor-led, origin-led story. It reaches new brewers with F-002, F-003, and F-008. We have bought from Finca Monte Tamsal for 7 consecutive harvests."
+      },
+      {
+        "channel": "email",
+        "role": "Introduce Hollow Reserve to existing subscribers, leading with “We have bought from Finca Monte Tamsal for 7 consecutive harvests.” and the subscriber quote. Include “Hollow Reserve is roasted from beans harvested in 2026.”",
+        "rationale": "For existing subscribers, lead with: “We have bought from Finca Monte Tamsal for 7 consecutive harvests.” (F-004) Also highlight “Hollow Reserve is roasted from beans harvested in 2026.” (F-011) Include the customer voice: \"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024 (F-009). Roasted within 48 hours of shipping (F-001) is a useful detail for them."
+      },
+      {
+        "channel": "landing_page",
+        "role": "Turn first-time visitors into first orders by laying out the farm, the process, the tasting notes, the roast timing, the price, and the shipping offer in one place.",
+        "rationale": "This is where the full approved story fits: F-002, F-003, F-001, F-004, F-005, and F-006, with the award in F-008. It serves the goal of winning first orders from new home brewers."
+      }
+    ]
+  },
+  "channel_plan_label": "Internal planning, not for publication.",
+  "assets": [
+    {
+      "asset": {
+        "asset_id": "search_ad-1",
+        "channel": "search_ad",
+        "fields": {
+          "headline": "Hollow Reserve: Know Your Cup",
+          "description": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia. Red apple, panela, and cocoa."
+        },
+        "references": [
+          "F-002",
+          "F-003"
+        ],
+        "citations": [
+          {
+            "text": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia.",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "Red apple, panela, and cocoa.",
+            "references": [
+              "F-003"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "search_ad-1/C1",
+          "asset_id": "search_ad-1",
+          "field": "description",
+          "quote": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The copy keeps the variety, process, farm, and region exactly as F-002 states them, which is within its paraphrase scope.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "search_ad-1/C2",
+          "asset_id": "search_ad-1",
+          "field": "description",
+          "quote": "Red apple, panela, and cocoa.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The copy keeps all three tasting notes from F-003, as its paraphrase scope requires.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "search_ad-2",
+        "channel": "search_ad",
+        "fields": {
+          "headline": "Meet Hollow Reserve",
+          "description": "Finca Monte Tamsal, Huila, Colombia: washed Caturra with red apple, panela, and cocoa."
+        },
+        "references": [
+          "F-002",
+          "F-003"
+        ],
+        "citations": [
+          {
+            "text": "Finca Monte Tamsal, Huila, Colombia: washed Caturra",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "red apple, panela, and cocoa.",
+            "references": [
+              "F-003"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "search_ad-2/C1",
+          "asset_id": "search_ad-2",
+          "field": "description",
+          "quote": "Finca Monte Tamsal, Huila, Colombia: washed Caturra",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "F-002 allows rewording and the copy keeps the variety, process, farm, and region.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "search_ad-2/C2",
+          "asset_id": "search_ad-2",
+          "field": "description",
+          "quote": "red apple, panela, and cocoa.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The copy keeps all three tasting notes from F-003, as the paraphrase scope requires.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "search_ad-3",
+        "channel": "search_ad",
+        "fields": {
+          "headline": "Shop Hollow Reserve",
+          "description": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia. $19 per 12 oz bag."
+        },
+        "references": [
+          "F-002",
+          "F-005"
+        ],
+        "citations": [
+          {
+            "text": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia.",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "$19 per 12 oz bag",
+            "references": [
+              "F-005"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "search_ad-3/C1",
+          "asset_id": "search_ad-3",
+          "field": "description",
+          "quote": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The copy keeps the process, variety, farm, and region exactly as F-002 requires, so the source proves the whole claim.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "search_ad-3/C2",
+          "asset_id": "search_ad-3",
+          "field": "description",
+          "quote": "$19 per 12 oz bag.",
+          "claim_type": "pricing",
+          "references": [
+            "F-005"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "reason": "The copy uses the approved phrasing and keeps the price and bag size from F-005.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "instagram-1",
+        "channel": "instagram",
+        "fields": {
+          "caption": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.\n\nHollow Reserve tastes of red apple, panela, and cocoa.\n\nWashed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.\n\nBest Washed Coffee, 2026 Quenby Valley Cup Awards\n\nCurious? Get to know Hollow Reserve."
+        },
+        "references": [
+          "F-002",
+          "F-003",
+          "F-008"
+        ],
+        "citations": [
+          {
+            "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+            "references": [
+              "F-003"
+            ]
+          },
+          {
+            "text": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+            "references": [
+              "F-008"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "instagram-1/C1",
+          "asset_id": "instagram-1",
+          "field": "caption",
+          "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The caption repeats F-002 word for word, keeping the variety, process, farm, and region.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-1/C2",
+          "asset_id": "instagram-1",
+          "field": "caption",
+          "quote": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The caption matches F-003 exactly and keeps all three tasting notes.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-1/C3",
+          "asset_id": "instagram-1",
+          "field": "caption",
+          "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "claim_type": "product_fact",
+          "references": [],
+          "verdict": "supported",
+          "supporting_passage": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "reason": "The definition matches the approved glossary entry word for word, so it needs no citation.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-1/C4",
+          "asset_id": "instagram-1",
+          "field": "caption",
+          "quote": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "claim_type": "superlative",
+          "references": [
+            "F-008"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "reason": "F-008 requires exact wording and the caption uses it exactly, with an award letter as evidence.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [
+        {
+          "rule": "channel_limit",
+          "severity": "warning",
+          "asset_id": "instagram-1",
+          "field": "caption",
+          "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal i",
+          "start": null,
+          "end": null,
+          "claim_type": null,
+          "message": "324 characters passes the 'see more' point at 125.",
+          "fix": "Put the key message before the fold, or shorten the copy."
+        }
+      ],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "instagram-2",
+        "channel": "instagram",
+        "fields": {
+          "caption": "Hollow Reserve tastes of red apple, panela, and cocoa.\n\nHollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia. Hollow Reserve is roasted from beans harvested in 2026.\n\nWashed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.\n\nBest Washed Coffee, 2026 Quenby Valley Cup Awards\n\nTake a closer look at the coffee behind the notes."
+        },
+        "references": [
+          "F-002",
+          "F-003",
+          "F-008",
+          "F-011"
+        ],
+        "citations": [
+          {
+            "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+            "references": [
+              "F-003"
+            ]
+          },
+          {
+            "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+            "references": [
+              "F-011"
+            ]
+          },
+          {
+            "text": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+            "references": [
+              "F-008"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "instagram-2/C1",
+          "asset_id": "instagram-2",
+          "field": "caption",
+          "quote": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The caption repeats the F-003 claim word for word and keeps all three tasting notes.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-2/C2",
+          "asset_id": "instagram-2",
+          "field": "caption",
+          "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The caption matches F-002 exactly, keeping the variety, process, farm, and region.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-2/C3",
+          "asset_id": "instagram-2",
+          "field": "caption",
+          "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-011"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "reason": "The caption uses the exact wording of F-011, which requires exact wording.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-2/C4",
+          "asset_id": "instagram-2",
+          "field": "caption",
+          "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "claim_type": "product_fact",
+          "references": [],
+          "verdict": "supported",
+          "supporting_passage": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "reason": "The definition is word for word the entry in approved_glossary, so it needs no citation.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "instagram-2/C5",
+          "asset_id": "instagram-2",
+          "field": "caption",
+          "quote": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "claim_type": "superlative",
+          "references": [
+            "F-008"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "reason": "The award line matches F-008 exactly, as required, and the award letter is the evidence.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [
+        {
+          "rule": "channel_limit",
+          "severity": "warning",
+          "asset_id": "instagram-2",
+          "field": "caption",
+          "quote": "Hollow Reserve tastes of red apple, panela, and cocoa.\n\nHoll",
+          "start": null,
+          "end": null,
+          "claim_type": null,
+          "message": "394 characters passes the 'see more' point at 125.",
+          "fix": "Put the key message before the fold, or shorten the copy."
+        }
+      ],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "email-1",
+        "channel": "email",
+        "fields": {
+          "subject": "Meet Hollow Reserve",
+          "preheader": "A coffee with a story to tell.",
+          "body": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.\n\n\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024\n\nHollow Reserve is roasted from beans harvested in 2026. It is a washed Caturra from Finca Monte Tamsal in Huila, Colombia. Look for red apple, panela, and cocoa in the cup.\n\nWashed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.\n\nIn a 2026 report, 47% of U.S. adults had specialty coffee in the past day, and 35% of past-day specialty coffee drinkers said flavor is part of what makes coffee specialty.\n\nEvery bag is roasted within 48 hours of shipping.\n\nExplore Hollow Reserve"
+        },
+        "references": [
+          "E-22",
+          "E-23",
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-009",
+          "F-011"
+        ],
+        "citations": [
+          {
+            "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+            "references": [
+              "F-004"
+            ]
+          },
+          {
+            "text": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+            "references": [
+              "F-009"
+            ]
+          },
+          {
+            "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+            "references": [
+              "F-011"
+            ]
+          },
+          {
+            "text": "It is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "Look for red apple, panela, and cocoa in the cup.",
+            "references": [
+              "F-003"
+            ]
+          },
+          {
+            "text": "In a 2026 report, 47% of U.S. adults had specialty coffee in the past day, and 35% of past-day specialty coffee drinkers said flavor is part of what makes coffee specialty.",
+            "references": [
+              "E-23",
+              "E-22"
+            ]
+          },
+          {
+            "text": "Every bag is roasted within 48 hours of shipping.",
+            "references": [
+              "F-001"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "email-1/C1",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "claim_type": "statistic",
+          "references": [
+            "F-004"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "reason": "The copy matches the exact-wording fact F-004 word for word.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C2",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+          "claim_type": "testimonial",
+          "references": [
+            "F-009"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+          "reason": "The testimonial is reproduced exactly as in F-009, which has a signed customer release on file.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C3",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-011"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "reason": "The copy matches the exact-wording fact F-011 word for word.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C4",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "It is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The rewording keeps the variety, process, farm, and region required by F-002.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C5",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "Look for red apple, panela, and cocoa in the cup.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The rewording keeps all three tasting notes required by F-003.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C6",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "claim_type": "product_fact",
+          "references": [],
+          "verdict": "supported",
+          "supporting_passage": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "reason": "This is the approved glossary entry used word for word, so it needs no citation.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C7",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "In a 2026 report, 47% of U.S. adults had specialty coffee in the past day",
+          "claim_type": "statistic",
+          "references": [
+            "E-23",
+            "E-22"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "47% of American adults had specialty coffee in the past day, maintaining a record high set in 2025",
+          "reason": "The 2026 NCA report states the 47% past-day figure for American adults, and 'U.S. adults' means the same thing.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C8",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "35% of past-day specialty coffee drinkers said flavor is part of what makes coffee specialty.",
+          "claim_type": "statistic",
+          "references": [
+            "E-23",
+            "E-22"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "35% of past-day specialty coffee drinkers say that flavor is part of what makes a cup of coffee “specialty coffee.”",
+          "reason": "The report gives the same 35% figure for the same group with the same meaning.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "email-1/C9",
+          "asset_id": "email-1",
+          "field": "body",
+          "quote": "Every bag is roasted within 48 hours of shipping.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-001"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Every bag is roasted within 48 hours of shipping.",
+          "reason": "The copy matches F-001 and keeps both '48 hours' and the window ending at shipping.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "landing_page-1",
+        "channel": "landing_page",
+        "fields": {
+          "headline": "Hollow Reserve: washed Caturra, Finca Monte Tamsal, Huila, Colombia",
+          "subheadline": "Tastes of red apple, panela, and cocoa. Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup. $19 per 12 oz bag",
+          "cta": "Shop Hollow Reserve"
+        },
+        "references": [
+          "F-002",
+          "F-003",
+          "F-005"
+        ],
+        "citations": [
+          {
+            "text": "Hollow Reserve: washed Caturra, Finca Monte Tamsal, Huila, Colombia",
+            "references": [
+              "F-002"
+            ]
+          },
+          {
+            "text": "Tastes of red apple, panela, and cocoa.",
+            "references": [
+              "F-003"
+            ]
+          },
+          {
+            "text": "$19 per 12 oz bag",
+            "references": [
+              "F-005"
+            ]
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "landing_page-1/C1",
+          "asset_id": "landing_page-1",
+          "field": "headline",
+          "quote": "Hollow Reserve: washed Caturra, Finca Monte Tamsal, Huila, Colombia",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The headline keeps the variety, process, farm, and region exactly as F-002 states them.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "landing_page-1/C2",
+          "asset_id": "landing_page-1",
+          "field": "subheadline",
+          "quote": "Tastes of red apple, panela, and cocoa.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "All three tasting notes from F-003 are kept in the reworded claim.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "landing_page-1/C3",
+          "asset_id": "landing_page-1",
+          "field": "subheadline",
+          "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "claim_type": "product_fact",
+          "references": [],
+          "verdict": "supported",
+          "supporting_passage": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "reason": "The definition matches the approved glossary entry word for word, so no citation is needed.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "landing_page-1/C4",
+          "asset_id": "landing_page-1",
+          "field": "subheadline",
+          "quote": "$19 per 12 oz bag",
+          "claim_type": "pricing",
+          "references": [
+            "F-005"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "reason": "The price and bag size match F-005 and the wording is an approved phrasing.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    }
+  ],
+  "verified_sections": [
+    {
+      "asset": {
+        "asset_id": "strategy-positioning",
+        "channel": "strategy",
+        "fields": {
+          "positioning": "For home filter brewers who already buy specialty whole-bean coffee and care where it comes from, Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia, that tastes of red apple, panela, and cocoa. We have bought from Finca Monte Tamsal for 7 consecutive harvests."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-positioning/C1",
+          "asset_id": "strategy-positioning",
+          "field": "positioning",
+          "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "F-002 states the same variety, process, farm, and region, so nothing is dropped.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-positioning/C2",
+          "asset_id": "strategy-positioning",
+          "field": "positioning",
+          "quote": "that tastes of red apple, panela, and cocoa",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The copy keeps all three tasting notes from F-003, which allows rewording.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-positioning/C3",
+          "asset_id": "strategy-positioning",
+          "field": "positioning",
+          "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "claim_type": "statistic",
+          "references": [
+            "F-004"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "reason": "The sentence matches the exact wording F-004 requires, and the figure is backed by signed contracts for 2020 to 2026.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 1
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-concept",
+        "channel": "strategy",
+        "fields": {
+          "concept": "Know your cup: a plainspoken, barista-across-the-counter introduction to one farm, one process, and three tasting notes. Each asset names Finca Monte Tamsal, explains what washed means in the brand's own words, and tells you what to taste, so a new brewer and a longtime subscriber can both see exactly where the 2026 harvest comes from."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-concept/C1",
+          "asset_id": "strategy-concept",
+          "field": "concept",
+          "quote": "see exactly where the 2026 harvest comes from",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002",
+            "F-011"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "F-002 ties the coffee to Finca Monte Tamsal in Huila, Colombia, and F-011 (\"Hollow Reserve is roasted from beans harvested in 2026.\") confirms the 2026 harvest, so the origin implied here is proven.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-1",
+        "channel": "strategy",
+        "fields": {
+          "message": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia, roasted from beans harvested in 2026."
+        },
+        "references": [
+          "F-002",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-1/C1",
+          "asset_id": "strategy-message-1",
+          "field": "message",
+          "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "The copy repeats F-002 word for word, keeping the variety, process, farm, and region.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-message-1/C2",
+          "asset_id": "strategy-message-1",
+          "field": "message",
+          "quote": "roasted from beans harvested in 2026",
+          "claim_type": "product_fact",
+          "references": [
+            "F-011"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "reason": "The phrase matches the exact wording of F-011 with no change to the harvest year or the roasting claim.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-2",
+        "channel": "strategy",
+        "fields": {
+          "message": "It tastes of red apple, panela, and cocoa."
+        },
+        "references": [
+          "F-003"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-2/C1",
+          "asset_id": "strategy-message-2",
+          "field": "message",
+          "quote": "It tastes of red apple, panela, and cocoa.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "The message is a permitted paraphrase of F-003 and keeps all three tasting notes (red apple, panela, cocoa).",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-3",
+        "channel": "strategy",
+        "fields": {
+          "message": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup."
+        },
+        "references": [
+          "F-002"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-3/C1",
+          "asset_id": "strategy-message-3",
+          "field": "message",
+          "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "reason": "The statement matches the approved glossary entry word for word, so it is supported without needing a citation.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-4",
+        "channel": "strategy",
+        "fields": {
+          "message": "We have bought from Finca Monte Tamsal for 7 consecutive harvests."
+        },
+        "references": [
+          "F-004"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-4/C1",
+          "asset_id": "strategy-message-4",
+          "field": "message",
+          "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "claim_type": "statistic",
+          "references": [
+            "F-004"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "reason": "F-004 states this exact claim, and its evidence note (signed purchase contracts for each harvest from 2020 to 2026) covers seven consecutive harvests.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-5",
+        "channel": "strategy",
+        "fields": {
+          "message": "Roasted within 48 hours of shipping."
+        },
+        "references": [
+          "F-001"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-5/C1",
+          "asset_id": "strategy-message-5",
+          "field": "message",
+          "quote": "Roasted within 48 hours of shipping.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-001"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Every bag is roasted within 48 hours of shipping.",
+          "reason": "The statement matches approved phrasing of F-001, keeping the 48-hour window and that it ends at shipping.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-6",
+        "channel": "strategy",
+        "fields": {
+          "message": "Best Washed Coffee, 2026 Quenby Valley Cup Awards"
+        },
+        "references": [
+          "F-008"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-6/C1",
+          "asset_id": "strategy-message-6",
+          "field": "message",
+          "quote": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "claim_type": "superlative",
+          "references": [
+            "F-008"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "reason": "The award claim matches cited fact F-008 word for word, backed by the May 2026 award letter and not expired (valid to 2027-05-31).",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-7",
+        "channel": "strategy",
+        "fields": {
+          "message": "$19 per 12 oz bag. Free shipping on orders over $40 in the contiguous US."
+        },
+        "references": [
+          "F-005",
+          "F-006"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-7/C1",
+          "asset_id": "strategy-message-7",
+          "field": "message",
+          "quote": "$19 per 12 oz bag.",
+          "claim_type": "pricing",
+          "references": [
+            "F-005"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "reason": "F-005 states the $19 price for a 12 oz bag, and the copy uses the approved phrasing \"$19 per 12 oz bag\", keeping both price and bag size.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-message-7/C2",
+          "asset_id": "strategy-message-7",
+          "field": "message",
+          "quote": "Free shipping on orders over $40 in the contiguous US.",
+          "claim_type": "pricing",
+          "references": [
+            "F-006"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Free shipping on orders over $40 in the contiguous US.",
+          "reason": "The copy matches the exact-wording fact F-006 word for word, including the $40 threshold and the contiguous US condition.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-message-8",
+        "channel": "strategy",
+        "fields": {
+          "message": "Market context: in the 2026 National Coffee Data Trends report, 47% of U.S. adults had specialty coffee in the past day, and 35% of past-day specialty coffee drinkers said flavor is part of what makes a cup of coffee 'specialty coffee'. That makes a clear, named tasting profile a good lead for this audience."
+        },
+        "references": [
+          "E-22",
+          "E-23"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-message-8/C1",
+          "asset_id": "strategy-message-8",
+          "field": "message",
+          "quote": "in the 2026 National Coffee Data Trends report, 47% of U.S. adults had specialty coffee in the past day",
+          "claim_type": "statistic",
+          "references": [
+            "E-22",
+            "E-23"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "47% of American adults had specialty coffee in the past day, maintaining a record high set in 2025 and keeping past-day specialty coffee consumption again higher than past-day traditional coffee consumption (42% of American adults), according to the National Coffee Association’s (NCA) 2026 National Coffee Data Trends (NCDT) Specialty Coffee Report",
+          "reason": "The NCA release reports this exact 47% figure from the 2026 NCDT report.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-message-8/C2",
+          "asset_id": "strategy-message-8",
+          "field": "message",
+          "quote": "35% of past-day specialty coffee drinkers said flavor is part of what makes a cup of coffee 'specialty coffee'",
+          "claim_type": "statistic",
+          "references": [
+            "E-22",
+            "E-23"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "35% of past-day specialty coffee drinkers say flavor is part of what makes a cup of coffee \"specialty coffee.\"",
+          "reason": "The cited sources state this 35% finding with the same population and meaning.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 1
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-channel-search_ad",
+        "channel": "strategy",
+        "fields": {
+          "role": "Catch home brewers already looking for specialty whole-bean coffee and bring them to the landing page with the farm, the process, and the tasting notes.",
+          "rationale": "We are targeting searchers who may be ready to buy, so the washed Caturra from Finca Monte Tamsal, the red apple, panela, and cocoa notes (F-002, F-003), and the $19 per 12 oz bag price (F-005) give new buyers concrete reasons to click. Flavor matters to specialty drinkers (E-22)."
+        },
+        "references": [
+          "E-22",
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-channel-search_ad/C1",
+          "asset_id": "strategy-channel-search_ad",
+          "field": "rationale",
+          "quote": "the washed Caturra from Finca Monte Tamsal",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "reason": "F-002 states the variety, process and farm exactly as the rationale does.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-search_ad/C2",
+          "asset_id": "strategy-channel-search_ad",
+          "field": "rationale",
+          "quote": "the red apple, panela, and cocoa notes (F-002, F-003)",
+          "claim_type": "product_fact",
+          "references": [
+            "F-002",
+            "F-003"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "reason": "F-003 lists all three tasting notes the rationale names.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-search_ad/C3",
+          "asset_id": "strategy-channel-search_ad",
+          "field": "rationale",
+          "quote": "the $19 per 12 oz bag price (F-005)",
+          "claim_type": "pricing",
+          "references": [
+            "F-005"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "reason": "The wording matches the approved phrasing \"$19 per 12 oz bag\" and keeps both the price and the bag size.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-search_ad/C4",
+          "asset_id": "strategy-channel-search_ad",
+          "field": "rationale",
+          "quote": "Flavor matters to specialty drinkers (E-22).",
+          "claim_type": "statistic",
+          "references": [
+            "E-22"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "35% of past-day specialty coffee drinkers say flavor is part of what makes a cup of coffee \"specialty coffee.\"",
+          "reason": "E-22 reports that flavor is part of what makes coffee specialty for specialty drinkers, which backs the general statement that flavor matters to them.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 1
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-channel-instagram",
+        "channel": "strategy",
+        "fields": {
+          "role": "Show the farm name, the three tasting notes, and the award in plain, curious language, and explain washed coffee with the glossary wording.",
+          "rationale": "A visual feed suits a flavor-led, origin-led story. It reaches new brewers with F-002, F-003, and F-008. We have bought from Finca Monte Tamsal for 7 consecutive harvests."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-channel-instagram/C1",
+          "asset_id": "strategy-channel-instagram",
+          "field": "rationale",
+          "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "claim_type": "statistic",
+          "references": [
+            "F-004"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "reason": "The sentence matches the exact-wording fact F-004 word for word, and nothing was added or changed.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 1
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-channel-email",
+        "channel": "strategy",
+        "fields": {
+          "role": "Introduce Hollow Reserve to existing subscribers, leading with “We have bought from Finca Monte Tamsal for 7 consecutive harvests.” and the subscriber quote. Include “Hollow Reserve is roasted from beans harvested in 2026.”",
+          "rationale": "For existing subscribers, lead with: “We have bought from Finca Monte Tamsal for 7 consecutive harvests.” (F-004) Also highlight “Hollow Reserve is roasted from beans harvested in 2026.” (F-011) Include the customer voice: \"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024 (F-009). Roasted within 48 hours of shipping (F-001) is a useful detail for them."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [
+        {
+          "id": "strategy-channel-email/C1",
+          "asset_id": "strategy-channel-email",
+          "field": "role",
+          "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "claim_type": "statistic",
+          "references": [
+            "F-004"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "reason": "The sentence matches the exact-wording fact F-004 word for word.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-email/C2",
+          "asset_id": "strategy-channel-email",
+          "field": "role",
+          "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-011"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "reason": "The sentence matches the exact-wording fact F-011 word for word.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-email/C3",
+          "asset_id": "strategy-channel-email",
+          "field": "rationale",
+          "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "claim_type": "statistic",
+          "references": [
+            "F-004"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "reason": "The sentence matches the exact-wording fact F-004 word for word.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-email/C4",
+          "asset_id": "strategy-channel-email",
+          "field": "rationale",
+          "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "claim_type": "product_fact",
+          "references": [
+            "F-011"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "reason": "The sentence matches the exact-wording fact F-011 word for word.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-email/C5",
+          "asset_id": "strategy-channel-email",
+          "field": "rationale",
+          "quote": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+          "claim_type": "testimonial",
+          "references": [
+            "F-009"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+          "reason": "The quote and attribution match the exact-wording testimonial F-009, which has a signed release on file.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        },
+        {
+          "id": "strategy-channel-email/C6",
+          "asset_id": "strategy-channel-email",
+          "field": "rationale",
+          "quote": "Roasted within 48 hours of shipping",
+          "claim_type": "product_fact",
+          "references": [
+            "F-001"
+          ],
+          "verdict": "supported",
+          "supporting_passage": "Every bag is roasted within 48 hours of shipping.",
+          "reason": "The phrase matches the approved phrasing of F-001 and keeps both the 48-hour window and the shipping endpoint.",
+          "fix": "",
+          "decided_by": "model",
+          "rule": null
+        }
+      ],
+      "warnings": [],
+      "revisions": 1
+    },
+    {
+      "asset": {
+        "asset_id": "strategy-channel-landing_page",
+        "channel": "strategy",
+        "fields": {
+          "role": "Turn first-time visitors into first orders by laying out the farm, the process, the tasting notes, the roast timing, the price, and the shipping offer in one place.",
+          "rationale": "This is where the full approved story fits: F-002, F-003, F-001, F-004, F-005, and F-006, with the award in F-008. It serves the goal of winning first orders from new home brewers."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "image-instagram-2",
+        "channel": "image_prompt",
+        "fields": {
+          "prompt": "An intimate, close view of the stages of washed coffee processing: coffee cherries being removed from beans at a simple farm worktable, beans set out to dry nearby, and a finished cup with red apple, panela, and cocoa arranged alongside as tasting cues. Set against a Colombian farm landscape, in Hollow Moss green (#3F5B45), Roasted Clay (#A65A3A), and Oat Milk (#F3EBDD), with clear natural daylight, an approachable composition, and a curious, informative mood; no signage or readable text.",
+          "alt_text": "Coffee cherries and separated beans on a farm worktable, with beans drying nearby and a cup of coffee beside apple, panela, and cocoa."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "image-email-1",
+        "channel": "image_prompt",
+        "fields": {
+          "prompt": "A welcoming coffee-table scene that feels like a personal introduction from a barista: a freshly brewed cup, a small dish of coffee beans, and red apple, panela, and cocoa arranged neatly, with a quiet Colombian farm hillside glimpsed through an open doorway and an anonymous figure seen from behind in the distance. Use Hollow Moss green (#3F5B45), Roasted Clay (#A65A3A), and Oat Milk (#F3EBDD), gentle early morning light, balanced composition with open space, and a warm, plainspoken mood; no packaging or text.",
+          "alt_text": "A cup of coffee and beans beside red apple, panela, and cocoa, with a farm hillside and a person seen from behind in the distance."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [],
+      "warnings": [],
+      "revisions": 0
+    },
+    {
+      "asset": {
+        "asset_id": "image-landing_page-1",
+        "channel": "image_prompt",
+        "fields": {
+          "prompt": "A clear, polished hero scene for a coffee introduction: a ceramic cup of brewed coffee in the foreground, red apple, panela, and cocoa grouped beside it, with coffee plants and a distant Huila hillside softly visible behind. Use Hollow Moss green (#3F5B45), Roasted Clay (#A65A3A), and Oat Milk (#F3EBDD), bright but soft natural light, a spacious composition with uncluttered negative space, and a warm, curious mood; no bag, logo, label, or writing.",
+          "alt_text": "A cup of coffee beside red apple, panela, and cocoa, with coffee plants and a distant hillside in the background."
+        },
+        "references": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-011"
+        ],
+        "citations": []
+      },
+      "claims": [],
+      "warnings": [],
+      "revisions": 0
+    }
+  ],
+  "gaps": [],
+  "claims": [
+    {
+      "id": "search_ad-1/C1",
+      "asset_id": "search_ad-1",
+      "channel": "search_ad",
+      "field": "description",
+      "quote": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy keeps the variety, process, farm, and region exactly as F-002 states them, which is within its paraphrase scope.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "search_ad-1/C2",
+      "asset_id": "search_ad-1",
+      "channel": "search_ad",
+      "field": "description",
+      "quote": "Red apple, panela, and cocoa.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy keeps all three tasting notes from F-003, as its paraphrase scope requires.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "search_ad-2/C1",
+      "asset_id": "search_ad-2",
+      "channel": "search_ad",
+      "field": "description",
+      "quote": "Finca Monte Tamsal, Huila, Colombia: washed Caturra",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-002 allows rewording and the copy keeps the variety, process, farm, and region.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "search_ad-2/C2",
+      "asset_id": "search_ad-2",
+      "channel": "search_ad",
+      "field": "description",
+      "quote": "red apple, panela, and cocoa.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy keeps all three tasting notes from F-003, as the paraphrase scope requires.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "search_ad-3/C1",
+      "asset_id": "search_ad-3",
+      "channel": "search_ad",
+      "field": "description",
+      "quote": "Washed Caturra from Finca Monte Tamsal, Huila, Colombia.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy keeps the process, variety, farm, and region exactly as F-002 requires, so the source proves the whole claim.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "search_ad-3/C2",
+      "asset_id": "search_ad-3",
+      "channel": "search_ad",
+      "field": "description",
+      "quote": "$19 per 12 oz bag.",
+      "claim_type": "pricing",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy uses the approved phrasing and keeps the price and bag size from F-005.",
+      "sources": [
+        {
+          "reference": "F-005",
+          "kind": "fact",
+          "text": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "note": "Current price list approved by the owner.",
+          "url": "",
+          "title": "",
+          "expires": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "id": "instagram-1/C1",
+      "asset_id": "instagram-1",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The caption repeats F-002 word for word, keeping the variety, process, farm, and region.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "instagram-1/C2",
+      "asset_id": "instagram-1",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The caption matches F-003 exactly and keeps all three tasting notes.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "instagram-1/C3",
+      "asset_id": "instagram-1",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The definition matches the approved glossary entry word for word, so it needs no citation.",
+      "sources": [
+        {
+          "reference": "Washed coffee",
+          "kind": "glossary",
+          "text": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "note": "",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "instagram-1/C4",
+      "asset_id": "instagram-1",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+      "claim_type": "superlative",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-008 requires exact wording and the caption uses it exactly, with an award letter as evidence.",
+      "sources": [
+        {
+          "reference": "F-008",
+          "kind": "fact",
+          "text": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "note": "Award letter from the fictional Quenby Valley Cup Awards committee, May 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-05-31"
+        }
+      ]
+    },
+    {
+      "id": "instagram-2/C1",
+      "asset_id": "instagram-2",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The caption repeats the F-003 claim word for word and keeps all three tasting notes.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "instagram-2/C2",
+      "asset_id": "instagram-2",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The caption matches F-002 exactly, keeping the variety, process, farm, and region.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "instagram-2/C3",
+      "asset_id": "instagram-2",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The caption uses the exact wording of F-011, which requires exact wording.",
+      "sources": [
+        {
+          "reference": "F-011",
+          "kind": "fact",
+          "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "instagram-2/C4",
+      "asset_id": "instagram-2",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The definition is word for word the entry in approved_glossary, so it needs no citation.",
+      "sources": [
+        {
+          "reference": "Washed coffee",
+          "kind": "glossary",
+          "text": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "note": "",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "instagram-2/C5",
+      "asset_id": "instagram-2",
+      "channel": "instagram",
+      "field": "caption",
+      "quote": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+      "claim_type": "superlative",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The award line matches F-008 exactly, as required, and the award letter is the evidence.",
+      "sources": [
+        {
+          "reference": "F-008",
+          "kind": "fact",
+          "text": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "note": "Award letter from the fictional Quenby Valley Cup Awards committee, May 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-05-31"
+        }
+      ]
+    },
+    {
+      "id": "email-1/C1",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy matches the exact-wording fact F-004 word for word.",
+      "sources": [
+        {
+          "reference": "F-004",
+          "kind": "fact",
+          "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "note": "Signed purchase contracts for each harvest from 2020 to 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "email-1/C2",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+      "claim_type": "testimonial",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The testimonial is reproduced exactly as in F-009, which has a signed customer release on file.",
+      "sources": [
+        {
+          "reference": "F-009",
+          "kind": "fact",
+          "text": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+          "note": "Signed customer release on file, June 2026. The customer received no payment.",
+          "url": "",
+          "title": "",
+          "expires": "2027-06-30"
+        }
+      ]
+    },
+    {
+      "id": "email-1/C3",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy matches the exact-wording fact F-011 word for word.",
+      "sources": [
+        {
+          "reference": "F-011",
+          "kind": "fact",
+          "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "email-1/C4",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "It is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The rewording keeps the variety, process, farm, and region required by F-002.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "email-1/C5",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "Look for red apple, panela, and cocoa in the cup.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The rewording keeps all three tasting notes required by F-003.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "email-1/C6",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "This is the approved glossary entry used word for word, so it needs no citation.",
+      "sources": [
+        {
+          "reference": "Washed coffee",
+          "kind": "glossary",
+          "text": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "note": "",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "email-1/C7",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "In a 2026 report, 47% of U.S. adults had specialty coffee in the past day",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The 2026 NCA report states the 47% past-day figure for American adults, and 'U.S. adults' means the same thing.",
+      "sources": [
+        {
+          "reference": "E-23",
+          "kind": "evidence",
+          "text": "47% of American adults had specialty coffee in the past day, maintaining a record high set in 2025",
+          "note": "",
+          "url": "https://www.ncausa.org/newsroom/Specialty-Coffee-Consumption-Remains-at-Record-High",
+          "title": "Specialty Coffee Consumption Remains at Record High",
+          "expires": null
+        },
+        {
+          "reference": "E-22",
+          "kind": "evidence",
+          "text": "47% of American adults had specialty coffee in the past day, maintaining a record high set in 2025",
+          "note": "",
+          "url": "https://sca.coffee/sca-news/2026-national-coffee-data-trends-report",
+          "title": "New Release: 2026 National Coffee Data Trends Specialty Coffee Report - Specialty Coffee Association",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "email-1/C8",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "35% of past-day specialty coffee drinkers said flavor is part of what makes coffee specialty.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The report gives the same 35% figure for the same group with the same meaning.",
+      "sources": [
+        {
+          "reference": "E-23",
+          "kind": "evidence",
+          "text": "35% of past-day specialty coffee drinkers say that flavor is part of what makes a cup of coffee “specialty coffee.”",
+          "note": "",
+          "url": "https://www.ncausa.org/newsroom/Specialty-Coffee-Consumption-Remains-at-Record-High",
+          "title": "Specialty Coffee Consumption Remains at Record High",
+          "expires": null
+        },
+        {
+          "reference": "E-22",
+          "kind": "evidence",
+          "text": "35% of past-day specialty coffee drinkers say that flavor is part of what makes a cup of coffee “specialty coffee.”",
+          "note": "",
+          "url": "https://sca.coffee/sca-news/2026-national-coffee-data-trends-report",
+          "title": "New Release: 2026 National Coffee Data Trends Specialty Coffee Report - Specialty Coffee Association",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "email-1/C9",
+      "asset_id": "email-1",
+      "channel": "email",
+      "field": "body",
+      "quote": "Every bag is roasted within 48 hours of shipping.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy matches F-001 and keeps both '48 hours' and the window ending at shipping.",
+      "sources": [
+        {
+          "reference": "F-001",
+          "kind": "fact",
+          "text": "Every bag is roasted within 48 hours of shipping.",
+          "note": "Roast and dispatch timestamps from the 2026 production log, audited in September.",
+          "url": "",
+          "title": "",
+          "expires": "2027-09-30"
+        }
+      ]
+    },
+    {
+      "id": "landing_page-1/C1",
+      "asset_id": "landing_page-1",
+      "channel": "landing_page",
+      "field": "headline",
+      "quote": "Hollow Reserve: washed Caturra, Finca Monte Tamsal, Huila, Colombia",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The headline keeps the variety, process, farm, and region exactly as F-002 states them.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "landing_page-1/C2",
+      "asset_id": "landing_page-1",
+      "channel": "landing_page",
+      "field": "subheadline",
+      "quote": "Tastes of red apple, panela, and cocoa.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "All three tasting notes from F-003 are kept in the reworded claim.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "landing_page-1/C3",
+      "asset_id": "landing_page-1",
+      "channel": "landing_page",
+      "field": "subheadline",
+      "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The definition matches the approved glossary entry word for word, so no citation is needed.",
+      "sources": [
+        {
+          "reference": "Washed coffee",
+          "kind": "glossary",
+          "text": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "note": "",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "landing_page-1/C4",
+      "asset_id": "landing_page-1",
+      "channel": "landing_page",
+      "field": "subheadline",
+      "quote": "$19 per 12 oz bag",
+      "claim_type": "pricing",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The price and bag size match F-005 and the wording is an approved phrasing.",
+      "sources": [
+        {
+          "reference": "F-005",
+          "kind": "fact",
+          "text": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "note": "Current price list approved by the owner.",
+          "url": "",
+          "title": "",
+          "expires": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-positioning/C1",
+      "asset_id": "strategy-positioning",
+      "channel": "strategy",
+      "field": "positioning",
+      "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-002 states the same variety, process, farm, and region, so nothing is dropped.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-positioning/C2",
+      "asset_id": "strategy-positioning",
+      "channel": "strategy",
+      "field": "positioning",
+      "quote": "that tastes of red apple, panela, and cocoa",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy keeps all three tasting notes from F-003, which allows rewording.",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-positioning/C3",
+      "asset_id": "strategy-positioning",
+      "channel": "strategy",
+      "field": "positioning",
+      "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The sentence matches the exact wording F-004 requires, and the figure is backed by signed contracts for 2020 to 2026.",
+      "sources": [
+        {
+          "reference": "F-004",
+          "kind": "fact",
+          "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "note": "Signed purchase contracts for each harvest from 2020 to 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-concept/C1",
+      "asset_id": "strategy-concept",
+      "channel": "strategy",
+      "field": "concept",
+      "quote": "see exactly where the 2026 harvest comes from",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-002 ties the coffee to Finca Monte Tamsal in Huila, Colombia, and F-011 (\"Hollow Reserve is roasted from beans harvested in 2026.\") confirms the 2026 harvest, so the origin implied here is proven.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        },
+        {
+          "reference": "F-011",
+          "kind": "fact",
+          "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-1/C1",
+      "asset_id": "strategy-message-1",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy repeats F-002 word for word, keeping the variety, process, farm, and region.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-1/C2",
+      "asset_id": "strategy-message-1",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "roasted from beans harvested in 2026",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The phrase matches the exact wording of F-011 with no change to the harvest year or the roasting claim.",
+      "sources": [
+        {
+          "reference": "F-011",
+          "kind": "fact",
+          "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-2/C1",
+      "asset_id": "strategy-message-2",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "It tastes of red apple, panela, and cocoa.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The message is a permitted paraphrase of F-003 and keeps all three tasting notes (red apple, panela, cocoa).",
+      "sources": [
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-3/C1",
+      "asset_id": "strategy-message-3",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The statement matches the approved glossary entry word for word, so it is supported without needing a citation.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        },
+        {
+          "reference": "Washed coffee",
+          "kind": "glossary",
+          "text": "Washed coffee: the fruit is removed from the bean before it dries, which gives a clean, bright cup.",
+          "note": "",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-4/C1",
+      "asset_id": "strategy-message-4",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-004 states this exact claim, and its evidence note (signed purchase contracts for each harvest from 2020 to 2026) covers seven consecutive harvests.",
+      "sources": [
+        {
+          "reference": "F-004",
+          "kind": "fact",
+          "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "note": "Signed purchase contracts for each harvest from 2020 to 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-5/C1",
+      "asset_id": "strategy-message-5",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "Roasted within 48 hours of shipping.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The statement matches approved phrasing of F-001, keeping the 48-hour window and that it ends at shipping.",
+      "sources": [
+        {
+          "reference": "F-001",
+          "kind": "fact",
+          "text": "Every bag is roasted within 48 hours of shipping.",
+          "note": "Roast and dispatch timestamps from the 2026 production log, audited in September.",
+          "url": "",
+          "title": "",
+          "expires": "2027-09-30"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-6/C1",
+      "asset_id": "strategy-message-6",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+      "claim_type": "superlative",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The award claim matches cited fact F-008 word for word, backed by the May 2026 award letter and not expired (valid to 2027-05-31).",
+      "sources": [
+        {
+          "reference": "F-008",
+          "kind": "fact",
+          "text": "Best Washed Coffee, 2026 Quenby Valley Cup Awards",
+          "note": "Award letter from the fictional Quenby Valley Cup Awards committee, May 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-05-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-7/C1",
+      "asset_id": "strategy-message-7",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "$19 per 12 oz bag.",
+      "claim_type": "pricing",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-005 states the $19 price for a 12 oz bag, and the copy uses the approved phrasing \"$19 per 12 oz bag\", keeping both price and bag size.",
+      "sources": [
+        {
+          "reference": "F-005",
+          "kind": "fact",
+          "text": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "note": "Current price list approved by the owner.",
+          "url": "",
+          "title": "",
+          "expires": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-7/C2",
+      "asset_id": "strategy-message-7",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "Free shipping on orders over $40 in the contiguous US.",
+      "claim_type": "pricing",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The copy matches the exact-wording fact F-006 word for word, including the $40 threshold and the contiguous US condition.",
+      "sources": [
+        {
+          "reference": "F-006",
+          "kind": "fact",
+          "text": "Free shipping on orders over $40 in the contiguous US.",
+          "note": "Current shipping policy.",
+          "url": "",
+          "title": "",
+          "expires": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-8/C1",
+      "asset_id": "strategy-message-8",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "in the 2026 National Coffee Data Trends report, 47% of U.S. adults had specialty coffee in the past day",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The NCA release reports this exact 47% figure from the 2026 NCDT report.",
+      "sources": [
+        {
+          "reference": "E-22",
+          "kind": "evidence",
+          "text": "47% of American adults had specialty coffee in the past day, maintaining a record high set in 2025 and keeping past-day specialty coffee consumption again higher than past-day traditional coffee consumption (42% of American adults), according to the National Coffee Association’s (NCA) 2026 National Coffee Data Trends (NCDT) Specialty Coffee Report",
+          "note": "",
+          "url": "https://sca.coffee/sca-news/2026-national-coffee-data-trends-report",
+          "title": "New Release: 2026 National Coffee Data Trends Specialty Coffee Report - Specialty Coffee Association",
+          "expires": null
+        },
+        {
+          "reference": "E-23",
+          "kind": "evidence",
+          "text": "47% of American adults had specialty coffee in the past day, maintaining a record high set in 2025 and keeping past-day specialty coffee consumption again higher than past-day traditional coffee consumption (42% of American adults), according to the National Coffee Association’s (NCA) 2026 National Coffee Data Trends (NCDT) Specialty Coffee Report",
+          "note": "",
+          "url": "https://www.ncausa.org/newsroom/Specialty-Coffee-Consumption-Remains-at-Record-High",
+          "title": "Specialty Coffee Consumption Remains at Record High",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-message-8/C2",
+      "asset_id": "strategy-message-8",
+      "channel": "strategy",
+      "field": "message",
+      "quote": "35% of past-day specialty coffee drinkers said flavor is part of what makes a cup of coffee 'specialty coffee'",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The cited sources state this 35% finding with the same population and meaning.",
+      "sources": [
+        {
+          "reference": "E-22",
+          "kind": "evidence",
+          "text": "35% of past-day specialty coffee drinkers say flavor is part of what makes a cup of coffee \"specialty coffee.\"",
+          "note": "",
+          "url": "https://sca.coffee/sca-news/2026-national-coffee-data-trends-report",
+          "title": "New Release: 2026 National Coffee Data Trends Specialty Coffee Report - Specialty Coffee Association",
+          "expires": null
+        },
+        {
+          "reference": "E-23",
+          "kind": "evidence",
+          "text": "35% of past-day specialty coffee drinkers say flavor is part of what makes a cup of coffee \"specialty coffee.\"",
+          "note": "",
+          "url": "https://www.ncausa.org/newsroom/Specialty-Coffee-Consumption-Remains-at-Record-High",
+          "title": "Specialty Coffee Consumption Remains at Record High",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-search_ad/C1",
+      "asset_id": "strategy-channel-search_ad",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "the washed Caturra from Finca Monte Tamsal",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-002 states the variety, process and farm exactly as the rationale does.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-search_ad/C2",
+      "asset_id": "strategy-channel-search_ad",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "the red apple, panela, and cocoa notes (F-002, F-003)",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "F-003 lists all three tasting notes the rationale names.",
+      "sources": [
+        {
+          "reference": "F-002",
+          "kind": "fact",
+          "text": "Hollow Reserve is a washed Caturra from Finca Monte Tamsal in Huila, Colombia.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        },
+        {
+          "reference": "F-003",
+          "kind": "fact",
+          "text": "Hollow Reserve tastes of red apple, panela, and cocoa.",
+          "note": "Scoring sheet from the head roaster's cupping panel, March 2026.",
+          "url": "",
+          "title": "",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-search_ad/C3",
+      "asset_id": "strategy-channel-search_ad",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "the $19 per 12 oz bag price (F-005)",
+      "claim_type": "pricing",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The wording matches the approved phrasing \"$19 per 12 oz bag\" and keeps both the price and the bag size.",
+      "sources": [
+        {
+          "reference": "F-005",
+          "kind": "fact",
+          "text": "Hollow Reserve costs $19 for a 12 oz bag.",
+          "note": "Current price list approved by the owner.",
+          "url": "",
+          "title": "",
+          "expires": "2027-03-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-search_ad/C4",
+      "asset_id": "strategy-channel-search_ad",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "Flavor matters to specialty drinkers (E-22).",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "E-22 reports that flavor is part of what makes coffee specialty for specialty drinkers, which backs the general statement that flavor matters to them.",
+      "sources": [
+        {
+          "reference": "E-22",
+          "kind": "evidence",
+          "text": "35% of past-day specialty coffee drinkers say flavor is part of what makes a cup of coffee \"specialty coffee.\"",
+          "note": "",
+          "url": "https://sca.coffee/sca-news/2026-national-coffee-data-trends-report",
+          "title": "New Release: 2026 National Coffee Data Trends Specialty Coffee Report - Specialty Coffee Association",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-instagram/C1",
+      "asset_id": "strategy-channel-instagram",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The sentence matches the exact-wording fact F-004 word for word, and nothing was added or changed.",
+      "sources": [
+        {
+          "reference": "F-004",
+          "kind": "fact",
+          "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "note": "Signed purchase contracts for each harvest from 2020 to 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-email/C1",
+      "asset_id": "strategy-channel-email",
+      "channel": "strategy",
+      "field": "role",
+      "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The sentence matches the exact-wording fact F-004 word for word.",
+      "sources": [
+        {
+          "reference": "F-004",
+          "kind": "fact",
+          "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "note": "Signed purchase contracts for each harvest from 2020 to 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-email/C2",
+      "asset_id": "strategy-channel-email",
+      "channel": "strategy",
+      "field": "role",
+      "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The sentence matches the exact-wording fact F-011 word for word.",
+      "sources": [
+        {
+          "reference": "F-011",
+          "kind": "fact",
+          "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-email/C3",
+      "asset_id": "strategy-channel-email",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+      "claim_type": "statistic",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The sentence matches the exact-wording fact F-004 word for word.",
+      "sources": [
+        {
+          "reference": "F-004",
+          "kind": "fact",
+          "text": "We have bought from Finca Monte Tamsal for 7 consecutive harvests.",
+          "note": "Signed purchase contracts for each harvest from 2020 to 2026.",
+          "url": "",
+          "title": "",
+          "expires": "2027-08-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-email/C4",
+      "asset_id": "strategy-channel-email",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "Hollow Reserve is roasted from beans harvested in 2026.",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The sentence matches the exact-wording fact F-011 word for word.",
+      "sources": [
+        {
+          "reference": "F-011",
+          "kind": "fact",
+          "text": "Hollow Reserve is roasted from beans harvested in 2026.",
+          "note": "Purchase contract and lot record for the 2026 harvest.",
+          "url": "",
+          "title": "",
+          "expires": "2027-12-31"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-email/C5",
+      "asset_id": "strategy-channel-email",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+      "claim_type": "testimonial",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The quote and attribution match the exact-wording testimonial F-009, which has a signed release on file.",
+      "sources": [
+        {
+          "reference": "F-009",
+          "kind": "fact",
+          "text": "\"I set my alarm ten minutes early for this one.\" - Dana R., subscriber since 2024",
+          "note": "Signed customer release on file, June 2026. The customer received no payment.",
+          "url": "",
+          "title": "",
+          "expires": "2027-06-30"
+        }
+      ]
+    },
+    {
+      "id": "strategy-channel-email/C6",
+      "asset_id": "strategy-channel-email",
+      "channel": "strategy",
+      "field": "rationale",
+      "quote": "Roasted within 48 hours of shipping",
+      "claim_type": "product_fact",
+      "verdict": "supported",
+      "decided_by": "model",
+      "rule": null,
+      "reason": "The phrase matches the approved phrasing of F-001 and keeps both the 48-hour window and the shipping endpoint.",
+      "sources": [
+        {
+          "reference": "F-001",
+          "kind": "fact",
+          "text": "Every bag is roasted within 48 hours of shipping.",
+          "note": "Roast and dispatch timestamps from the 2026 production log, audited in September.",
+          "url": "",
+          "title": "",
+          "expires": "2027-09-30"
+        }
+      ]
+    }
+  ],
+  "ledger": {
+    "issues": [
+      {
+        "asset_id": "strategy-positioning",
+        "kind": "unsupported_claim",
+        "quote": "from a farm we have bought from for 7 consecutive harvests",
+        "problem": "The approved fact must be used in its exact wording.",
+        "fix": "Remove the claim, or support it with an approved fact.",
+        "id": "I1",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-message-8",
+        "kind": "unsupported_claim",
+        "quote": "in January 2026, 47% of U.S. adults had specialty coffee in the past day",
+        "problem": "The sources give 47% of American adults having specialty coffee in the past day, but neither says the figure is from January 2026; the NCA release is dated June 2, 2026 and calls it the Spring 2026 report.",
+        "fix": "Remove the month and write: \"In the 2026 National Coffee Data Trends report, 47% of U.S. adults had specialty coffee in the past day.\"",
+        "id": "I2",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-message-8",
+        "kind": "unsupported_claim",
+        "quote": "35% of past-day specialty coffee drinkers said flavor is part of what makes coffee specialty",
+        "problem": "The 35% figure matches the sources, but the sentence ties it to January 2026, a timeframe that neither source states.",
+        "fix": "Remove the January 2026 date: \"In the 2026 National Coffee Data Trends report, 35% of past-day specialty coffee drinkers said flavor is part of what makes a cup of coffee 'specialty coffee.'\"",
+        "id": "I3",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-channel-search_ad",
+        "kind": "unsupported_claim",
+        "quote": "Searchers are in buying mode",
+        "problem": "This is a factual statement about how searchers behave, and no cited source supports it.",
+        "fix": "Reword as intent, for example \"We are targeting searchers who may be ready to buy,\" or cite evidence on search intent.",
+        "id": "I4",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-channel-instagram",
+        "kind": "unsupported_claim",
+        "quote": "the 7 consecutive harvests (F-004) show the grower relationship",
+        "problem": "The approved fact must be used in its exact wording.",
+        "fix": "Remove the claim, or support it with an approved fact.",
+        "id": "I5",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-channel-email",
+        "kind": "unsupported_claim",
+        "quote": "the 7 consecutive harvests at Finca Monte Tamsal",
+        "problem": "The approved fact must be used in its exact wording.",
+        "fix": "Remove the claim, or support it with an approved fact.",
+        "id": "I6",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-channel-email",
+        "kind": "unsupported_claim",
+        "quote": "the long-term relationship with the farm (F-004)",
+        "problem": "The approved fact must be used in its exact wording.",
+        "fix": "Remove the claim, or support it with an approved fact.",
+        "id": "I7",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-channel-email",
+        "kind": "unsupported_claim",
+        "quote": "the 2026 harvest (F-011)",
+        "problem": "The approved fact must be used in its exact wording.",
+        "fix": "Remove the claim, or support it with an approved fact.",
+        "id": "I8",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "strategy-channel-email",
+        "kind": "unsupported_claim",
+        "quote": "\"I set my alarm ten minutes early for this one.\" (F-009)",
+        "problem": "The approved fact must be used in its exact wording.",
+        "fix": "Remove the claim, or support it with an approved fact.",
+        "id": "I9",
+        "status": "resolved",
+        "round_raised": 1,
+        "round_resolved": 2,
+        "history": [
+          "r1: raised",
+          "r2: resolved"
+        ]
+      },
+      {
+        "asset_id": "image-instagram-1",
+        "kind": "unsupported_claim",
+        "quote": "from a small farm",
+        "problem": "F-002 names Finca Monte Tamsal in Huila but says nothing about the farm's size, so 'small' is not proven.",
+        "fix": "Remove 'small' and write 'a washed coffee from a farm in Huila, Colombia', or cite a source that gives the farm's size.",
+        "id": "I10",
+        "status": "open",
+        "round_raised": 1,
+        "round_resolved": null,
+        "history": [
+          "r1: raised"
+        ]
+      }
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "added": [
+          "I1",
+          "I2",
+          "I3",
+          "I4",
+          "I5",
+          "I6",
+          "I7",
+          "I8",
+          "I9"
+        ],
+        "resolved": [],
+        "regressed": [],
+        "still_open": [],
+        "unverified": []
+      },
+      {
+        "round": 2,
+        "added": [],
+        "resolved": [
+          "I1",
+          "I2",
+          "I3",
+          "I4",
+          "I5",
+          "I6",
+          "I7",
+          "I8",
+          "I9"
+        ],
+        "regressed": [],
+        "still_open": [],
+        "unverified": []
+      },
+      {
+        "round": 1,
+        "added": [],
+        "resolved": [],
+        "regressed": [],
+        "still_open": [],
+        "unverified": []
+      },
+      {
+        "round": 1,
+        "added": [
+          "I10"
+        ],
+        "resolved": [],
+        "regressed": [],
+        "still_open": [],
+        "unverified": []
+      }
+    ]
+  },
+  "research_gaps": [
+    "The search did not find verifiable public results for the exact named competitors Harrowfen Coffee or Brindlewick Roasters, so their positioning and offers remain unknown.",
+    "The public sources do not provide specific consumer research about U.S. home filter brewers who already buy specialty whole-bean coffee, nor findings specific to light-roast washed Caturra or Colombian single-farm coffees.",
+    "The research does not establish subscriber response to a 2026 harvest launch or the reasons new customers choose a particular roastery."
+  ],
+  "image_prompts": [
+    {
+      "asset_id": "instagram-2",
+      "channel": "instagram",
+      "prompt": "An intimate, close view of the stages of washed coffee processing: coffee cherries being removed from beans at a simple farm worktable, beans set out to dry nearby, and a finished cup with red apple, panela, and cocoa arranged alongside as tasting cues. Set against a Colombian farm landscape, in Hollow Moss green (#3F5B45), Roasted Clay (#A65A3A), and Oat Milk (#F3EBDD), with clear natural daylight, an approachable composition, and a curious, informative mood; no signage or readable text. Entirely fictional scene. Show no logos, no brand names, no readable text, and no recognizable real people.",
+      "alt_text": "Coffee cherries and separated beans on a farm worktable, with beans drying nearby and a cup of coffee beside apple, panela, and cocoa.",
+      "size": "1024x1024"
+    },
+    {
+      "asset_id": "email-1",
+      "channel": "email",
+      "prompt": "A welcoming coffee-table scene that feels like a personal introduction from a barista: a freshly brewed cup, a small dish of coffee beans, and red apple, panela, and cocoa arranged neatly, with a quiet Colombian farm hillside glimpsed through an open doorway and an anonymous figure seen from behind in the distance. Use Hollow Moss green (#3F5B45), Roasted Clay (#A65A3A), and Oat Milk (#F3EBDD), gentle early morning light, balanced composition with open space, and a warm, plainspoken mood; no packaging or text. Entirely fictional scene. Show no logos, no brand names, no readable text, and no recognizable real people.",
+      "alt_text": "A cup of coffee and beans beside red apple, panela, and cocoa, with a farm hillside and a person seen from behind in the distance.",
+      "size": "1536x1024"
+    },
+    {
+      "asset_id": "landing_page-1",
+      "channel": "landing_page",
+      "prompt": "A clear, polished hero scene for a coffee introduction: a ceramic cup of brewed coffee in the foreground, red apple, panela, and cocoa grouped beside it, with coffee plants and a distant Huila hillside softly visible behind. Use Hollow Moss green (#3F5B45), Roasted Clay (#A65A3A), and Oat Milk (#F3EBDD), bright but soft natural light, a spacious composition with uncluttered negative space, and a warm, curious mood; no bag, logo, label, or writing. Entirely fictional scene. Show no logos, no brand names, no readable text, and no recognizable real people.",
+      "alt_text": "A cup of coffee beside red apple, panela, and cocoa, with coffee plants and a distant hillside in the background.",
+      "size": "1536x1024"
+    }
+  ],
+  "rejected_image_prompts": [
+    {
+      "asset_id": "instagram-1",
+      "reason": "F-002 names Finca Monte Tamsal in Huila but says nothing about the farm's size, so 'small' is not proven."
+    }
+  ],
+  "images": [],
+  "cost": {
+    "total_usd": 0.501604,
+    "model_usd": 0.469604,
+    "other_usd": 0.032,
+    "cap_usd": 1.0,
+    "by_role": {
+      "researcher": 0.004774,
+      "strategist": 0.025865,
+      "claim_checker": 0.379454,
+      "copywriter": 0.059081,
+      "designer": 0.00043
+    }
+  },
+  "content_sha256": "af18dd75764cdd5789ff27960f77c69f96a7137a27d0fa1f0a9e3f143eedb764",
+  "approval": {
+    "approved_by": "Mahesh Gadi",
+    "approved_at": "2026-11-18T23:34:42.036071Z",
+    "content_sha256": "af18dd75764cdd5789ff27960f77c69f96a7137a27d0fa1f0a9e3f143eedb764"
+  }
+}

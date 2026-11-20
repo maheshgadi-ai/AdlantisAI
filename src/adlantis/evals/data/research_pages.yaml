@@ -1,0 +1,27 @@
+# Fictional web pages served to the researcher during evaluations, so runs are repeatable.
+coffee:
+  - url: https://fixture.example/home-brewing-survey
+    title: Home brewing habits in a fictional survey
+    html: >-
+      <h1>Home brewing habits</h1><p>In the fictional Larkfield Brewing Survey, 61% of home filter
+      brewers said knowing the farm matters when they choose a coffee. Most respondents said tasting
+      notes help them decide what to buy next, and many brew at home every morning before work.</p>
+  - url: https://fixture.example/whole-bean-trends
+    title: Whole bean buying in a fictional market report
+    html: >-
+      <h1>Whole bean buying</h1><p>The fictional Ambry Market Report found that whole bean sales grew
+      8% among subscribers during the year. Buyers in the report named freshness and clear origin
+      details as their two most common reasons for choosing a roaster.</p>
+cycling:
+  - url: https://fixture.example/commuter-survey
+    title: City commuting in a fictional rider survey
+    html: >-
+      <h1>City commuting</h1><p>In the fictional Tollbridge Commuter Survey, 54% of urban riders said
+      a removable battery is important because they cannot charge in a garage. Riders also said that
+      clear range figures and easy repairs matter when they replace short car trips.</p>
+  - url: https://fixture.example/ebike-market
+    title: E-bike buying in a fictional market report
+    html: >-
+      <h1>E-bike buying</h1><p>The fictional Wrenfield Mobility Report found that first-time buyers
+      compare price, range, and service options before they book a test ride. Most buyers in the
+      report said a test ride was the step that made them confident about buying.</p>

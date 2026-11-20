@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adlantis"
+version = "0.1.0"
+description = "A team of AI agents that builds marketing campaigns where every claim is traceable to an approved fact or a cited source."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Venkata SatyaMahesh Gadi" }]
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=2.0",
+    "httpx>=0.27",
+    "langfuse>=5.0",
+    "openai>=3.0",
+    "pydantic>=2.12",
+    "pydantic-settings>=2.6",
+    "pyyaml>=6.0",
+    "typer>=0.15",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.8"]
+ui = ["streamlit>=1.40"]
+
+[project.urls]
+Homepage = "https://github.com/maheshgadi-ai/AdlantisAI"
+
+[project.scripts]
+adlantis = "adlantis.interfaces.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/adlantis"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"examples" = "adlantis/examples"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "T20"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["T20"]
+
+[tool.ruff.lint.flake8-bugbear]
+# Typer's declarative parameters are evaluated once by design.
+extend-immutable-calls = ["typer.Argument", "typer.Option"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Live tests call real APIs and cost money: deselected unless run with `pytest -m live`.
+addopts = "-q -m 'not live'"
+markers = [
+    "live: makes real, billed API calls; run explicitly with `pytest -m live`",
+]

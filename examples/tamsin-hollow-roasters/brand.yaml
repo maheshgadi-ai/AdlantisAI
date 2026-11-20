@@ -1,0 +1,24 @@
+# Fictional brand. All names, people, organizations, and figures are invented.
+name: Tamsin Hollow Roasters
+voice:
+  tone: [warm, curious, plainspoken]
+  do:
+    - Name the farm, the process, and what the coffee tastes like.
+    - Write the way a good barista talks across the counter.
+  dont:
+    - Promise how a cup will make someone feel.
+    - Lean on coffee jargon without explaining it.
+audience: Home brewers aged 28 to 55 who buy whole-bean coffee and care where it comes from.
+values: [traceable sourcing, long-term grower relationships, honest labeling]
+colors:
+  - {name: Hollow Moss, hex: "#3F5B45"}
+  - {name: Roasted Clay, hex: "#A65A3A"}
+  - {name: Oat Milk, hex: "#F3EBDD"}
+banned_words: [artisanal, game-changer, revolutionary, miracle, superfood]
+banned_claim_types: [health]
+competitors:
+  - {name: Harrowfen Coffee, aliases: [Harrowfen]}
+  - {name: Brindlewick Roasters, aliases: [Brindlewick]}
+glossary:
+  - term: Washed coffee
+    definition: the fruit is removed from the bean before it dries, which gives a clean, bright cup.

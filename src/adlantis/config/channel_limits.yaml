@@ -1,0 +1,89 @@
+# Length limits for each channel's copy fields (checked 2026-11-18).
+#
+# severity:
+#   error    the platform rejects longer text, so the asset is blocked
+#   warning  longer text is reported in the kit and never blocks; copy should still aim within it
+#
+# truncation (optional): where a platform folds text behind "see more", below a hard cap.
+# Passing it warns. These points are approximate and vary by device.
+#
+# source:
+#   type         platform (enforced by rejection), guideline (truncation), or editorial (our own)
+#   third_party  true when the figure comes from a third party, not the platform's own docs
+#   reference    where the figure was checked
+#
+# counting:
+#   characters    Unicode characters
+#   double_width  full-width characters count as 2 (Google Ads)
+#   x_weighted    X's weighted count: URLs are 23, emoji and most non-Latin characters are 2
+
+channels:
+  search_ad:
+    headline:
+      max_chars: 30
+      counting: double_width
+      severity: error
+      source: {type: platform, third_party: false, reference: "https://support.google.com/google-ads/answer/7684791"}
+    description:
+      max_chars: 90
+      counting: double_width
+      severity: error
+      source: {type: platform, third_party: false, reference: "https://support.google.com/google-ads/answer/7684791"}
+  meta_ad:
+    primary_text:
+      max_chars: 125
+      severity: warning
+      source: {type: guideline, third_party: true, reference: "https://superads.ai/blog/facebook-ad-sizes-specs"}
+    headline:
+      max_chars: 40
+      severity: warning
+      source: {type: guideline, third_party: true, reference: "https://superads.ai/blog/facebook-ad-sizes-specs"}
+  instagram:
+    caption:
+      max_chars: 2200
+      severity: error
+      source: {type: platform, third_party: true, reference: "https://www.socialync.io/help/caption-and-media-limits"}
+      truncation:
+        max_chars: 125
+        source: {type: guideline, third_party: true, reference: "https://www.hootsuite.com/social-media-tools/social-media-caption-preview"}
+  linkedin:
+    post:
+      max_chars: 3000
+      severity: error
+      source: {type: platform, third_party: true, reference: "https://www.socialync.io/help/caption-and-media-limits"}
+      truncation:
+        # 140 is the mobile fold, chosen so the opening survives on phones. Desktop folds near 210.
+        max_chars: 140
+        source: {type: guideline, third_party: true, reference: "https://www.hootsuite.com/social-media-tools/social-media-caption-preview"}
+  x:
+    post:
+      max_chars: 280
+      counting: x_weighted
+      severity: error
+      source: {type: platform, third_party: false, reference: "https://docs.x.com/fundamentals/counting-characters"}
+  email:
+    subject:
+      max_chars: 60
+      severity: warning
+      source: {type: editorial, third_party: false, reference: "AdlantisAI editorial standard"}
+    preheader:
+      max_chars: 100
+      severity: warning
+      source: {type: editorial, third_party: false, reference: "AdlantisAI editorial standard"}
+    body:
+      max_chars: 2000
+      severity: warning
+      source: {type: editorial, third_party: false, reference: "AdlantisAI editorial standard"}
+  landing_page:
+    headline:
+      max_chars: 70
+      severity: warning
+      source: {type: editorial, third_party: false, reference: "AdlantisAI editorial standard"}
+    subheadline:
+      max_chars: 160
+      severity: warning
+      source: {type: editorial, third_party: false, reference: "AdlantisAI editorial standard"}
+    cta:
+      max_chars: 30
+      severity: warning
+      source: {type: editorial, third_party: false, reference: "AdlantisAI editorial standard"}
